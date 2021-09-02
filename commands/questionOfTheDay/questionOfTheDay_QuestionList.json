@@ -1,0 +1,3972 @@
+{
+    "questions": [
+        {
+            "id": 0,
+            "question": "Would you rather change your past or peer into your future",
+            "answers": {
+                "0": "I cringe at past me, I wish to beat the shit out of them.",
+                "1": "Future, just to get the Powerball numbers",
+                "2": "Going so far in the past to make sure my parents never fuck. The void begs for me."
+            }
+        },
+        {
+            "id": 3,
+            "question": "Dick? Pussy?",
+            "answers": {
+                "0": "Dick.",
+                "1": "Pussy.",
+                "2": "Please?",
+                "3": "Eww?",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 4,
+            "question": "Cereal, soup?",
+            "answers": {
+                "0": "No",
+                "1": "Yes",
+                "2": "It is a stew",
+                "3": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 8,
+            "question": "Dogs or cats?",
+            "answers": {
+                "0": "Dogs",
+                "1": "Cats",
+                "2": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 11,
+            "question": "Who had the most *positive* impact on your life?",
+            "answers": {
+                "0": "My mother",
+                "1": "My Father",
+                "2": "Grand Parent",
+                "3": "Other family member",
+                "4": "Close friend",
+                "5": "Significant Other / Romantic Partner",
+                "6": "Teacher / Therapist / Doctor / Other professional",
+                "7": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 12,
+            "question": "If you could use a time machine, would you rather it only be able to go forwards in time or only go backwards?",
+            "answers": {
+                "0": "Go forwards",
+                "1": "Go backwards"
+            }
+        },
+        {
+            "id": 13,
+            "question": "If you could change one thing about yourself physically, what would you change?",
+            "answers": {
+                "0": "<:weedTrans:724832567123247217>",
+                "1": "Taller",
+                "2": "Shorter",
+                "3": "Bulkier / Stronger",
+                "4": "Slimmer",
+                "5": "Make me pretty",
+                "6": "Fix my eyes",
+                "7": "Change my hair color",
+                "8": "I'm perfect human specimen and do not need any physical changes!",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 14,
+            "question": "Political leaning? (*sorry non American peeps*)",
+            "answers": {
+                "0": "Oh no! I'm not brave enough for politics.",
+                "1": "I just want healthcare <:flattened:724832567341350964>",
+                "2": "Whatever the fuck Bernie is doing",
+                "3": "Some flavor of Anarchist",
+                "4": "Some flavor of Socialist",
+                "5": "Right wing (instant ban lol)",
+                "6": "Tankie (instant ban lol)",
+                "7": "idk, left wing I guess?",
+                "8": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 15,
+            "question": "What was the worst year of your life?",
+            "answers": {
+                "0": "This year, lol",
+                "1": "2020",
+                "2": "2016",
+                "3": "The year I was born, lol",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 17,
+            "question": "Music genre?",
+            "answers": {
+                "0": "Punk",
+                "1": "Folk Punk",
+                "2": "K-Pop",
+                "3": "Pop",
+                "4": "Metal",
+                "5": "Rock",
+                "6": "Pop Punk",
+                "7": "Electro",
+                "8": "Music is for nerds",
+                "9": "Other; Talk about it in <#791375988008288266>. You can also post your fav music in <#450771368322007040>"
+            }
+        },
+        {
+            "id": 20,
+            "question": "Best Star Wars movie?",
+            "answers": {
+                "0": "Star Wars 1: The Phantom Menace",
+                "1": "Star Wars 2: The Clone Wars",
+                "2": "Star Wars 3: The Revenge of the Sith",
+                "3": "Star Wars 4: A New Hope",
+                "4": "Star Wars 5: The Empire Strikes Back",
+                "5": "Star Wars 6: Return of the Jedi",
+                "6": "Star Wars 7: The Force Awakens",
+                "7": "Star Wars 8: The Last Jedi",
+                "8": "Star Wars 9: The Rise of Skywalker",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 21,
+            "question": "Best Hayao Mikazaki movie?",
+            "answers": {
+                "0": "Howl's Moving Castle",
+                "1": "Spirited Away",
+                "2": "Princess Mononoke",
+                "3": "My Neighbor Totoro",
+                "4": "Kiki's Delivery Service",
+                "5": "Ponyo",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 22,
+            "question": "What do you get the most compliments about?",
+            "answers": {
+                "0": "I don't get compliments",
+                "1": "Being smart",
+                "2": "Being funny",
+                "3": "Being cute",
+                "4": "Being good at a thing (cooking, art, etc)",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 24,
+            "question": "If you could live in any time period, which would it be?",
+            "answers": {
+                "0": "Stone age",
+                "1": "Roman times",
+                "2": "The Renaissance",
+                "3": "Roaring 20s",
+                "4": "50s-60s",
+                "5": "70s",
+                "6": "80s",
+                "7": "90s",
+                "8": "I'm [insert marginalized group], I don't like the past <:flattened:724832567341350964>",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 25,
+            "question": "Got a conspiracy theory that you 100% believe in?",
+            "answers": {
+                "0": "New Coke was made as a viral marketing campaign to make people buy old Coke",
+                "1": "Governments are hiding that aliens exist",
+                "2": "Pro-Wrestling is actually real",
+                "3": "Taylor Swift is gay or bi, only dates men to write songs",
+                "4": "Your phone buzzes for no reason just so you pick it up and use it.",
+                "5": "Wyoming doesn't exist",
+                "6": "JFK's head just kinda did that",
+                "7": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 26,
+            "question": "Quality you look for most in a romantic partner?",
+            "answers": {
+                "0": "Cute face",
+                "1": "good sense of humor",
+                "2": "Personality",
+                "3": "Smarts",
+                "4": "Money",
+                "5": "A pulse",
+                "6": "Ambition",
+                "7": "Caring/Loving",
+                "8": "Healthy life",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 27,
+            "question": "Childhood habit that you'll never grow out of?",
+            "answers": {
+                "0": "Biting nails",
+                "1": "Shitting my pants",
+                "2": "Picking nose",
+                "3": "Interrupting people",
+                "4": "Eating all food with your fingers",
+                "5": "Chewing with your mouth open",
+                "6": "All of the above",
+                "7": "None of the above! I'm an actual adult!",
+                "8": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 28,
+            "question": "Which scientific thing blows your mind the most?",
+            "answers": {
+                "0": "Fuckin' magnets",
+                "1": "Gene editing",
+                "2": "Rockets and space travel",
+                "3": "Entangled particles",
+                "4": "Anti-Depressants",
+                "5": "Evolution",
+                "6": "Black holes",
+                "7": "How computers are just rocks we tricked into thinking",
+                "8": "How there are smart light bulbs with more processing power than the computers that sent people to the moon",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 29,
+            "question": "What would you ask future you?",
+            "answers": {
+                "0": "What's the winning lotto numbers?",
+                "1": "Did you finally lose your virginity, loser",
+                "2": "I have a test tomorrow, give answers",
+                "3": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 30,
+            "question": "How would you like to be famous?",
+            "answers": {
+                "0": "Police are responding to a call about ...",
+                "1": "Rock star",
+                "2": "Politician",
+                "3": "Through a meme",
+                "4": "Super model",
+                "5": "Fucking up *reallyyy* bad",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 31,
+            "question": "Best season?",
+            "answers": {
+                "0": "Spring",
+                "1": "Summer",
+                "2": "Fall",
+                "3": "Winter"
+            }
+        },
+        {
+            "id": 32,
+            "question": "Best Holiday?",
+            "answers": {
+                "0": "My Birthday",
+                "1": "Christmas / Hanukkah",
+                "2": "Halloween",
+                "3": "Thanksgiving",
+                "4": "Killing the British Day (4th of July, or whatever the day is for your nation)",
+                "5": "Mother's / Father's Day",
+                "6": "Valentine's Day",
+                "7": "New Years",
+                "8": "Labor Day",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 33,
+            "question": "Greatest pain you ever felt",
+            "answers": {
+                "0": "A bad breakup",
+                "1": "Broken bone",
+                "2": "Stubbed little toe",
+                "3": "Existence",
+                "4": "Stepping on a lego",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 34,
+            "question": "What do you hate being asked?",
+            "answers": {
+                "0": "Are you sure? Like, yes, I am sure! Fucking hell! I'm not *that* dumb!",
+                "1": "Can you answer this question? No professor, I didn't raise my fucking hand.",
+                "2": "What do you hate being asked?",
+                "3": "What's up? The sky. Ya need glasses",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 35,
+            "question": "What is something people admire about you?",
+            "answers": {
+                "0": "My honesty",
+                "1": "My politeness",
+                "2": "My ambition", 
+                "3": "My determination",
+                "4": "Nothing, lol",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 36,
+            "question": "What is your favorite article of clothing?",
+            "answers": {
+                "0": "Post a picture of it in <#791375988008288266>. Please no lingerie."
+            }
+        },
+        {
+            "id": 37,
+            "question": "What is something you wish you enjoyed, but just cant?",
+            "answers": {
+                "0": "Dark chocolate",
+                "1": "Alcohol",
+                "2": "Parties",
+                "3": "Me :)",
+                "4": "Shrooms / Acid (I am legally required to say, don't do drug)",
+                "5": "Smoking, both tobacco & weed (I am legally required to say, smoking is bad and weed is still illegal in many parts of the word)",
+                "6": "Coffee",
+                "7": "You",
+                "8": "Exercise",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 38,
+            "question": "Your outlook on life?",
+            "answers": {
+                "0": "Good! Life is always getting better!",
+                "1": "Good, but there will always be a few bumps in the road",
+                "2": "It will eventually get better, darkest before dawn kind of shit",
+                "3": "There is no outlook, life is life and it can always change",
+                "4": "Ehh. Life can be good but it can also be just as bad",
+                "5": "Life is actively getting worse",
+                "6": "This is hell",
+                "7": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 39,
+            "question": "What are you most likely to be arrested for?",
+            "answers": {
+                "0": "\"Rioting\" is what the fuckin' pigs call it",
+                "1": "Drinking unpasteurized milk",
+                "2": "Bashing the fash",
+                "3": "Weed",
+                "4": "Having this much ***SWAG***",
+                "5": "Leading a failed revolution",
+                "6": "Torrenting \"Linux ISOs\"",
+                "7": "Being LGBT in a region of the world where it is criminal <:flattened:724832567341350964>",
+                "8": "Nothing, cops will always try to find a reason to arrest you",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 40,
+            "question": "What animal would you like to be the most?",
+            "answers": {
+                "0": "A dog",
+                "1": "A cat",
+                "2": "A horse",
+                "3": "A monke",
+                "4": "A sloth",
+                "5": "A whale",
+                "6": "A dodo, because they all dead",
+                "7": "Hawk / Eagle",
+                "8": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 41,
+            "question": "What is the worst part of where you live?",
+            "answers": {
+                "0": "Nothing to do",
+                "1": "Crime",
+                "2": "Too expensive",
+                "3": "The people",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 42,
+            "question": "What is the meaning of life, the universe, and everything?",
+            "answers": {
+                "0": "To live",
+                "1": "There is none",
+                "2": "42",
+                "3": "This is a shitty reference",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 43,
+            "question": "What is the best part of where you live?",
+            "answers": {
+                "0": "So many cool things to do",
+                "1": "Safe",
+                "2": "Cheap housing",
+                "3": "The people",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 44,
+            "question": "What historical moment do you wish you witness in person?",
+            "answers": {
+                "0": "French revolution",
+                "1": "Russian revolution",
+                "2": "My birth",
+                "3": "Cesar seizing power",
+                "4": "Moon landing or Sputnik",
+                "5": "John Brown's raid on Harpers Ferry",
+                "6": "That time when the Mongols tried to invade Japan but like the middle of a battle a tornado or some shit fucked them up. Just so I could see Mongol warriors battle against Samurai and wind lmao",
+                "7": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 45,
+            "question": "Do you believe in fate?",
+            "answers": {
+                "0": "Yes",
+                "1": "No",
+                "2": "I don't care enough",
+                "3": "We can't possibly know",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 46,
+            "question": "What historical figure do you admire the most",
+            "answers": {
+                "0": "John Brown",
+                "1": "Mao, only because fuck landlords",
+                "2": "Oliver Cromwell, fuck royalty",
+                "3": "Me :)",
+                "4": "Lincoln",
+                "5": "FDR",
+                "6": "You <3",
+                "7": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 47,
+            "question": "What do you want to accomplish before the year is over?",
+            "answers": {
+                "0": "This book I've been trying to finish",
+                "1": "Getting fit",
+                "2": "This personal project",
+                "3": "Meeting new people / Making new friends",
+                "4": "Make more art",
+                "5": "Learn more",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 48,
+            "question": "Have you ever been offered a good opportunity but refused it?",
+            "answers": {
+                "0": "Yes, and I **don't** regret it",
+                "1": "Yes, and I **do** regret it",
+                "2": "No, I'm not dumb enough to turn down a good deal",
+                "3": "You think I'm offered *good* things?!",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 49,
+            "question": "Best spice?",
+            "answers": {
+                "0": "Curry",
+                "1": "Cinnamon",
+                "2": "Smoked Paprika",
+                "3": "Black Pepper",
+                "4": "None, I'm Br*tish",
+                "5": "Rosemary",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 50,
+            "question": "Best soda?",
+            "answers": {
+                "0": "Coca-Cola",
+                "1": "Pepsi",
+                "2": "Dr. Pepper",
+                "3": "None, water is the best drink",
+                "4": "Faygo",
+                "5": "RC Cola",
+                "6": "Irn-Bru",
+                "7": "Fanta",
+                "8": "Jarritos",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 51,
+            "question": "You're suddenly in a horror film and running from a masked murderer. You companion is the last person you texted. How fucked are you?",
+            "answers": {
+                "0": "EZPZ, they will pummel the villain with relative ease",
+                "1": "If we play our cards right, we might survive",
+                "2": "Snowballs chance in hell we survive",
+                "3": "I'd have better odds of survival if I killed them",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 52,
+            "question": "Who do you wish was still alive",
+            "answers": {
+                "0": "A close friend",
+                "1": "A family member",
+                "2": "An old significant other",
+                "3": "Long cat",
+                "4": "Grumpy cat",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 53,
+            "question": "How's your year going so far?",
+            "answers": {
+                "0": "It's going good",
+                "1": "Could be worse",
+                "2": "Ehhh, it's a year",
+                "3": "Could be better",
+                "4": "Shit",
+                "5": "It's feeling like \"2020: Electric Boogaloo\"",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 54,
+            "question": "What fictional world would you like to live in?",
+            "answers": {
+                "0": "Harry Potter, but without JK Rowling. TRANS RIGHTS",
+                "1": "Lord of the Rings",
+                "2": "Star Wars", 
+                "3": "Marvel Cinematic Universe",
+                "4": "I'm Rin and my answer is Star Trek",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 55,
+            "question": "What is your favorite answer?",
+            "answers": {
+                "0": "This one",
+                "1": "This one",
+                "2": "This one",
+                "3": "This one"
+            }
+        },
+        {
+            "id": 56,
+            "question": "What is worth dying for?",
+            "answers": {
+                "0": "Love",
+                "1": "Freedom",
+                "2": "Saving someone else",
+                "3": "Nothing is worth dying for, my life is worth more than you could possibly imagine",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 57,
+            "question": "What is the \"ideal\" version of your life?",
+            "answers": {
+                "0": "Stress free",
+                "1": "Not worrying about money",
+                "2": "Being academically successful",
+                "3": "Being surrounded by loving friends and family",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 58,
+            "question": "What is the dumbest purchase you’ve ever made?",
+            "answers": {
+                "0": "One of those dumb decretive coffee mugs that you cant microwave or put into the dishwasher",
+                "1": "An oversized Pokemon plushy",
+                "2": "A Funko-Pop",
+                "3": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 59,
+            "question": "What keeps you up at night?",
+            "answers": {
+                "0": "Cringe worthy things I did as a wee lad",
+                "1": "The anxiety for upcoming events",
+                "2": "The Don Cheadle Word of the Day: Pain",
+                "3": "A good show",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 60,
+            "question": "What is something that you wouldn't wish upon your worst enemy?",
+            "answers": {
+                "0": "Paper cut between the fingers",
+                "1": "The burden of life",
+                "2": "Being homeless",
+                "3": "Losing a loved one",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 61,
+            "question": "When was the last time you tried something new? Did you like it?",
+            "answers": {
+                "0": "It has been a loooong time",
+                "1": "Not that long ago",
+                "2": "Today actually!",
+                "3": "And I did not like it",
+                "4": "I did like it!",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 62,
+            "question": "If you started a band, what position would you play",
+            "answers": {
+                "0": "Lead vocalist",
+                "1": "Lead guitar",
+                "2": "Davie504",
+                "3": "Drummer",
+                "4": "Backup of some kind",
+                "5": "I'd never be in a band! This is a shitty question!",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 63,
+            "question": "When you were a kid, were you excited about being a grown up? What about being an adult was the \"coolest\"",
+            "answers": {
+                "0": "Making lots of money",
+                "1": "Being large and in charge",
+                "2": "Being able to have ice cream for dinner",
+                "3": "Having no one to tell you what to do",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 64,
+            "question": "If you opened a business, what type would it be? What would you name it?"
+        },
+        {
+            "id": 65,
+            "question": "What is the most useless talent or skill you possess? How and why did you learn it?"
+        },
+        {
+            "id": 66,
+            "question": "Was John Brown a terrorist, or a freedom fighter?",
+            "answers": {
+                "0": "I'm literally at Harpers Ferry rn",
+                "1": "I support him, but maybe he was a bit extreme",
+                "2": "Mixed feelings",
+                "3": "He fought for a noble cause, but was an idiot ",
+                "4": "He was a terrorist",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 67,
+            "question": "What activity makes you lose track of time?",
+            "answers": {
+                "0": "Music",
+                "1": "Binge watching TV",
+                "2": "Video games",
+                "3": "Spending time with loved ones <3",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 68,
+            "question": "What are you looking forward to?"
+        },
+        {
+            "id": 70,
+            "question": "What is the best thing that happened to you this week?"
+        },
+        {
+            "id": 71,
+            "question": "How would your life change if you inherited $100,000 tomorrow?",
+            "answers": {
+                "0": "Nothing would change, I would just put it into savings/ investing",
+                "1": "I'd just buy a new phone or some shit",
+                "2": "This would literally change my life!",
+                "3": "Nothing much would change cause I'm just so deep in debt <:flattened:724832567341350964>",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 72,
+            "question": "Have you discovered anything about yourself in the past year?",
+            "answers": {
+                "0": "Questioned identity (sexuality / gender)",
+                "1": "Discovered innate skill",
+                "2": "Discovered new interest / hobby",
+                "3": "Found new way my brain works",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 74,
+            "question": "What do you think happens after we die, if anything?",
+            "answers": {
+                "0": "Nothing, you just stop",
+                "1": "Afterlife of some kind",
+                "2": "What my religion says",
+                "3": "You become a ghost",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 75,
+            "question": "What instantly makes you feel like a child again?",
+            "answers": {
+                "0": "Theme parks",
+                "1": "Disney movies",
+                "2": "Candy",
+                "3": "Holidays",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 76,
+            "question": "What’s something you’ve done so many times, you could do it with your eyes closed?",
+            "answers": {
+                "0": "Washing and putting dishes away",
+                "1": "Taking notes / writing",
+                "2": "Driving",
+                "3": "Sleeping",
+                "4": "Drawing",
+                "5": "Typing",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 77,
+            "question": "How do you think humanity will go extinct? When do you think it will happen?",
+            "answers": {
+                "0": "Global warming",
+                "1": "War",
+                "2": "Famine",
+                "3": "Genetic modification gone wrong",
+                "4": "Aliens",
+                "5": "Sun devouring the Earth",
+                "6": "The heat death of the universe",
+                "7": "Humanity is a very resilient species. I don't think we will ever go extinct",
+                "8": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 79,
+            "question": "What outfit makes you feel invincible?"
+        },
+        {
+            "id": 80,
+            "question": "What situation made you feel like a complete idiot?"
+        },
+        {
+            "id": 81,
+            "question": "What do you want written on your headstone?"
+        },
+        {
+            "id": 82,
+            "question": "What is a misconception people have about your profession?",
+            "answers": {
+                "0": "That our job is *easy*",
+                "1": "That our job is *hard*",
+                "2": "That our job actually *matters*",
+                "3": "That our job is nearly *pointless*",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 83,
+            "question": "When was the last time you did something nice for someone completely unprompted?",
+            "answers": {
+                "0": "Today",
+                "1": "Yesterday",
+                "2": "This week",
+                "3": "This month",
+                "4": "This season",
+                "5": "This year",
+                "6": "Last year",
+                "7": "Never, fuck everyone, fuck you",
+                "8": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 84,
+            "question": "What if the first thing you hope people notice about you?"
+        },
+        {
+            "id": 85,
+            "question": "What is something you’re embarrassed to admit you enjoy? Why are you embarrassed about it?"
+        },
+        {
+            "id": 86,
+            "question": "What do you find yourself thinking about just before you fall asleep?",
+            "answers": {
+                "0": "The cringe shit I did in my past",
+                "1": "Upcoming deadlines",
+                "2": "Pain of the present",
+                "3": "Hope for the future",
+                "4": "Netflix: Are you still there?",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 87,
+            "question": "What is something you fantasize about often?",
+            "answers": {
+                "0": "Being happy",
+                "1": "Can't say cause this is a SFW channel",
+                "2": "Finishing this project",
+                "3": "Asking them out",
+                "4": "Graduating",
+                "5": "Getting a job / getting a raise / getting a promotion",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 88,
+            "question": "What gives you hope for the future?",
+            "answers": {
+                "0": "The progress of technology",
+                "1": "My friends and family",
+                "2": "Violence worldwide declining year over year",
+                "3": "The progress of society",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 89,
+            "question": "Have you ever had, a recurring dream or nightmare? What was it?"
+        },
+        {
+            "id": 90,
+            "question": "What’s a rant you’ve been holding in?"
+        },
+        {
+            "id": 92,
+            "question": "What is the most obscure fact you know?"
+        },
+        {
+            "id": 93,
+            "question": "How long do you think you could survive in a remote forest with no tools?",
+            "answers": {
+                "0": "Not even a day",
+                "1": "About a week",
+                "2": "About a month",
+                "3": "A year",
+                "4": "Forever, I am Tarzan",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 94,
+            "question": "Do aliens exist?",
+            "answers": {
+                "0": "No, we are alone",
+                "1": "They did at one point but they killed themselves off with war or global warming or some shit",
+                "2": "They exist, just super far away",
+                "3": "They just don't care about us dumb monkes",
+                "4": "Major world powers have already contacted aliens",
+                "5": "Aliens are among us like a Star Trek away mission",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 95,
+            "question": "Coffee or tea?",
+            "answers": {
+                "0": "Coffee",
+                "1": "Tea",
+                "2": "Water",
+                "3": "Whatever is offered to me first",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 96,
+            "question": "If you had to lose one of your senses, what would it be?",
+            "answers": {
+                "0": "Sight",
+                "1": "Smell",
+                "2": "Hearing",
+                "3": "Touch",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 97,
+            "question": "Where would you hide you're treasure chest?",
+            "answers": {
+                "0": "In my backyard",
+                "1": "In the landfill",
+                "2": "On an island",
+                "3": "In a Swiss bank account",
+                "4": "Up my ass",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 98,
+            "question": "Do you enjoy spicy food? What's the spiciest thing you've ever eaten?",
+            "answers": {
+                "0": "Mayo is too spicy :(",
+                "1": "A very light spicy",
+                "2": "Sriracha is my limit",
+                "3": "I better be sweating",
+                "4": "My ass is breathing fire",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 99,
+            "question": "What's something you really resent paying for?",
+            "answers": {
+                "0": "Food",
+                "1": "I'm American, healthcare",
+                "2": "Insurance",
+                "3": "My fucking taxes when Jeff fucking Bezos don't pay shit",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 100,
+            "question": "How do you feel about putting pineapple on pizza?",
+            "answers": {
+                "0": "Good and pineapple-pilled",
+                "1": "A good treat",
+                "2": "If it happened to be on my slice, I wouldn't mind",
+                "3": "I would *prefer* not to have it",
+                "4": "***No.***",
+                "5": "I hate it only for the meme"
+            }
+        },
+        {
+            "id": 101,
+            "question": "What food have you never eaten but would really like to try?"
+        },
+        {
+            "id": 102,
+            "question": "What should they teach in high school but don't?",
+            "answers": {
+                "0": "How the fuck do I do my taxes?",
+                "1": "Cooking",
+                "2": "Basic home improvement",
+                "3": "Basic budgeting",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 103,
+            "question": "If you could turn any activity into an Olympic sport, what would you have a good chance at winning a medal for?",
+            "answers": {
+                "0": "Sitting on my ass",
+                "1": "Making excuses for things",
+                "2": "Stuffing food into my mouth",
+                "3": "Crying",
+                "4": "Shitposting",
+                "5": "Being hot",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 104,
+            "question": "What's your favorite ice cream topping?",
+            "answers": {
+                "0": "Sprinkles",
+                "1": "Hot fudge / Chocolate syrup",
+                "2": "Cookie crumbles",
+                "3": "Honey",
+                "4": "Gummy bears",
+                "5": "Fruit",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 106,
+            "question": "What's your favorite fruit?",
+            "answers": {
+                "0": "Apples",
+                "1": "Oranges / Tangerines",
+                "2": "Raspberries",
+                "3": "Cherries",
+                "4": "Mangos",
+                "5": "Watermelon",
+                "6": "Blackberries",
+                "7": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 107,
+            "question": "What product would you seriously stockpile if you found out they weren't going to sell it anymore?"
+        },
+        {
+            "id": 108,
+            "question": "What is something popular now, but in 5 years everyone will look back on and be embarrassed they liked it?"
+        },
+        {
+            "id": 109,
+            "question": "If magic was real, what spell would you try to learn first?"
+        },
+        {
+            "id": 110,
+            "question": "Do you ever remember your dreams? Have you had any weird ones that stuck with you?"
+        },
+        {
+            "id": 111,
+            "question": "If you could only eat one food for the rest of your life, what would it be?",
+            "answers": {
+                "0": "Burgers",
+                "1": "Pizza",
+                "2": "Chikin nuggies",
+                "3": "Human flesh",
+                "4": "Fried chicken",
+                "5": "Steak",
+                "6": "Spaghetti",
+                "7": "Subs",
+                "8": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 112,
+            "question": "What invention doesn't get a lot of love, but has greatly improved the world?"
+        },
+        {
+            "id": 113,
+            "question": "What piece of entertainment do you wish you could erase from your mind so that you could experience it for the first time again?",
+            "answers": {
+                "0": "My favorite book series",
+                "1": "My favorite television series", 
+                "2": "My favorite movie series",
+                "3": "My favorite video game series",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 114,
+            "question": "If you received a salary to follow whatever passion you wanted to, what would you do?"
+        },
+        {
+            "id": 115,
+            "question": "What's something you tried really hard to like but couldn't?"
+        },
+        {
+            "id": 116,
+            "question": "What's something that a lot of people are missing out on because they don't know about it?"
+        },
+        {
+            "id": 117,
+            "question": "What website/social do you visit most often?",
+            "answers": {
+                "0": "Twitter",
+                "1": "Discord",
+                "2": "YouTube",
+                "3": "Reddit",
+                "4": "Instagram",
+                "5": "Facebook",
+                "6": "Github",
+                "7": "Google+ lmao",
+                "8":"Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 118,
+            "question": "How do you usually get your news?",
+            "answers": {
+                "0": "Twitter",
+                "1": "Reddit",
+                "2": "TV",
+                "3": "#general in some large politics discord server",
+                "4": "I don't watch the news",
+                "5": "I **AM** the news",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 119,
+            "question": "If you had a year of free time to learn or hone any skill, what would you do?",
+            "answers": {
+                "0": "Learn a language",
+                "1": "Learn programming",
+                "2": "learn how to actually talk to people",
+                "3": "Learn how to cook",
+                "4": "Learn how to paint or draw",
+                "5": "Learn to play an instrument",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 121,
+            "question": "If the universe is just a simulation, what update or patch does it need?",
+            "answers": {
+                "0": "Fixing the infinite money glitch that all these old white dudes refuse to share with the rest of us",
+                "1": "Allow players to re-enter character creation after spawn",
+                "2": "Have access to resources be based off your skill levels rather than how much gold you have",
+                "3": "Make certain animals (dogs / cats) immune to player damage",
+                "4": "Revert to the monke patch (0.052)",
+                "5": "Whatever TierZoo says",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 122,
+            "question": "What stats for your life would you most like to see?",
+            "answers": {
+                "0": "Health",
+                "1": "Level",
+                "2": "XP needed for next level",
+                "3": "Missions completed",
+                "4": "Reputation",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 124,
+            "question": "In what situation or place would you feel the most out of place in?"
+        },
+        {
+            "id": 125,
+            "question": "What are some red flags to watch out for in daily life?"
+        },
+        {
+            "id": 126,
+            "question": "If you see a puddle on the ground, do you walk around it, over it, or through it?",
+            "answers": {
+                "0": "Through it, I ain't letting some little fucking puddle stop me",
+                "1": "Over it, I am above the puddle. It wishes to be me",
+                "2": "Around it, I got these fucking expensive ass shoes.",
+                "3": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 127,
+            "question": "What is your biggest pet peeve?"
+        },
+        {
+            "id": 128,
+            "question": "What's a series that hasn't been updated in a while that you'd love to see revived?"
+        },
+        {
+            "id": 129,
+            "question": "What is the best excuse for being late you've heard or used?"
+        },
+        {
+            "id": 130,
+            "question": "If you have 30 minutes to kill before going somewhere, what do you do?",
+            "answers": {
+                "0": "Mindlessly browse Twitter/ Reddit",
+                "1": "A YouTube video or two",
+                "2": "Shitpost",
+                "3": "Listen to music",
+                "4": "Play some mobile idle games",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 131,
+            "question": "What's your favorite kind of dessert?",
+            "answers": {
+                "0": "Cold desserts (ice cream, sherbet, popsicle)",
+                "1": "Baked desserts (cookies, brownies, cookies)",
+                "2": "Candy desserts (chocolate bars, gummy bears, skittles)",
+                "3": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 132,
+            "question": "If life is a game, what are some of the rules?"
+        },
+        {
+            "id": 133,
+            "question": "What is something you are utterly obsessed with at the moment?"
+        },
+        {
+            "id": 135,
+            "question": "What do you usually do on your commute?",
+            "answers": {
+                "0": "Listen to music",
+                "1": "Listen to podcasts",
+                "2": "Listen to nothing",
+                "3": "Talk to other people in the car",
+                "4": "Talk to myself (in your head or out loud)",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 136,
+            "question": "What recent trend are you totally on board with?"
+        },
+        {
+            "id": 137,
+            "question": "What is your favorite junk food?",
+            "answers": {
+                "0": "Soda",
+                "1": "Chips",
+                "2": "Funyuns",
+                "3": "Cheetos / Cheez Ballz",
+                "4": "Ramen",
+                "5": "Doritos",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 138,
+            "question": "What's worth spending more on to get the best?"
+        },
+        {
+            "id": 139,
+            "question": "What's one fact about the universe that blows your mind?"
+        },
+        {
+            "id": 140,
+            "question": "What chore do you absolutely hate doing?",
+            "answers": {
+                "0": "Clothes",
+                "1": "Dishes",
+                "2": "Sweeping/Mopping/Vacuuming",
+                "3": "Dusting",
+                "4": "Putting things away",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 141,
+            "question": "What age do you wish you could permanently be?",
+            "answers": {
+                "0": "-1",
+                "1": "0 - 9",
+                "2": "10 - 13",
+                "3": "14 - 18",
+                "4": "19 - 25",
+                "5": "26 - 35",
+                "6": "36 - 45",
+                "7": "46 - 99",
+                "8": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 142,
+            "question": "What's the most interesting thing you've seen online this week?"
+        },
+        {
+            "id": 143,
+            "question": "What was the scariest or most disturbing movie you've ever seen?"
+        },
+        {
+            "id": 144,
+            "question": "What's your *favorite* conspiracy theory? (not necessarily one that you believe)",
+            "answers": {
+                "0": "Flat earth",
+                "1": "Moon landing faked",
+                "2": "Aliens rule the world",
+                "3": "Hollow earth",
+                "4": "Hitler escaped to Argentina",
+                "5": "MK Ultra, wait...",
+                "6": "Vaccines are poison",
+                "7": "QAnon",
+                "8": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 145,
+            "question": "What is something that most people consider to be a luxury, but you don't think you could live without?"
+        },
+        {
+            "id": 146,
+            "question": "What music do you put on when you want to get pumped?",
+            "answers": {
+                "0": "Metal",
+                "1": "Punk",
+                "2": "Dubstep or some shit",
+                "3": "Rock",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 147,
+            "question": "What animal or plant do you think should be renamed?"
+        },
+        {
+            "id": 148,
+            "question": "What's the most unique shop or restaurant you've been in?"
+        },
+        {
+            "id": 149,
+            "question": "What kind of art do you appreciate the most?",
+            "answers": {
+                "0": "Classical (Roman / Greek)",
+                "1": "Renaissance",
+                "2": "Medieval Japanese",
+                "3": "Impressionist",
+                "4": "Modern",
+                "5": "Post-Modern",
+                "6": "idk, im not an art major",
+                "7": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 150,
+            "question": "What card or board games do you like to play?"
+        },
+        {
+            "id": 151,
+            "question": "What kinds of things do you like to cook or are good at cooking? You better send pics in <#791375988008288266>"
+        },
+        {
+            "id": 152,
+            "question": "Show us your pets! c:"
+        },
+        {
+            "id": 153,
+            "question": "What is your all time most played song, album and artist? Show us in <#791375988008288266>"
+        },
+        {
+            "id": 154,
+            "question": "What is something you can never seem to finish?",
+            "answers": {
+                "0": "The 324807 personal projects I have got going on rn",
+                "1": "The group project that is due next week",
+                "2": "Calling my parents/ grandparents, I'm sure they miss me very much",
+                "3": "Nothing, I complete everything.",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 155,
+            "question": "Do you like things that are \"so bad it's good?\" What's your favorite example of it?"
+        },
+        {
+            "id": 156,
+            "question": "Would you ever try space tourism if you had the money for it?",
+            "answers": {
+                "0": "Just shoot me into the sun already",
+                "1": "Yea! I can't wait to touch the stars!",
+                "2": "Fuck no! Have you seen how tall those things are? How fast they go?!",
+                "3": "I will never have the money for it so its pointless to think about",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 157,
+            "question": "If you didn't have to sleep, what would you do with the extra time?",
+            "answers": {
+                "0": "Being alone with my thoughts",
+                "1": "Actually get shit done instead of sleeping in till noon",
+                "2": "I already don't sleep",
+                "3": "Learn new things",
+                "4": "idk, prob just play more games",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 158,
+             "question": "What do you wish your phone could do?",
+             "answers": {
+                 "0": "Tell me what I should text my crush",
+                 "1": "Do my work for me",
+                 "2": "Help me solve math problems while showing me steps. Why the fuck I gotta pay for that shit WolframAlpha?!",
+                 "3": "Tell the scammers to fuck off",
+                 "4": "Other; Talk about it in <#791375988008288266>"
+             }
+        },
+        {
+            "id": 159,
+            "question": "What's your drink of choice (alcoholic or non)?",
+            "answers": {
+                "0": "Water",
+                "1": "Milk",
+                "2": "Choccy Milk",
+                "3": "Beer",
+                "4": "Wine",
+                "5": "Fancy Cocktails",
+                "6": "Blood of my enemies",
+                "7": "Lemonade",
+                "8": "Juice",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 160,
+            "question": "What could you give a 40-minute presentation on with absolutely no preparation?"
+        },
+        {
+            "id": 161,
+            "question": "Do you prefer headphones or earbuds?",
+            "answers": {
+                "0": "Headphones cause they always sound better",
+                "1": "Headphones cause they do be comfy",
+                "2": "Whatever makes noise in the general direction of my ears",
+                "3": "Earbuds cause they are small and I can carry them anywhere",
+                "4": "Earbuds cause I'm poor and thats all that came with my phone 3 years ago"
+            }
+        },
+        {
+            "id": 162,
+            "question": "What weird food combinations do you really enjoy?"
+        },
+        {
+            "id": 163,
+            "question": "If you could get an exotic pet, any animal at all, what kind of companion would you like to have?",
+            "answers": {
+                "0": "Monke",
+                "1": "Parrot",
+                "2": "Mini Pony",
+                "3": "Those domesticated foxes that exist in Russia",
+                "4": "Floppa",
+                "5": "One of those genetically engineered dogs/cats that glow in the fucking dark",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 164,
+            "question": "What incredibly common thing have you never done?",
+            "answers": {
+                "0": "Get a drivers license",
+                "1": "Get a *real* job (not a cushy one cause you know the boss before getting hired)",
+                "2": "Making a major purchase (ie car, renting/buying house/apartment)",
+                "3": "Organizing your life yourself (Having a S/O do it for you does not count)",
+                "4": "Making doctors appointments yourself",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 165,
+            "question": "If you could snap your fingers and learn a language, what language would you learn?",
+            "answers": {
+                "0": "Spanish",
+                "1": "French",
+                "2": "Chinese",
+                "3": "Japanese",
+                "4": "Korean",
+                "5": "Arabic",
+                "6": "C++",
+                "7": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 166,
+            "question": "Is there an app/site you hate but use anyways?",
+            "answers": {
+                "0": "Facebook",
+                "1": "Instagram",
+                "2": "Twitter",
+                "3": "Reddit",
+                "4": "Discord",
+                "5": "Zoom",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 167,
+            "question": "What takes a lot of time but is totally worth it?",
+            "answers": {
+                "0": "Cleaning your house",
+                "1": "Cooking a hard meal",
+                "2": "Nurturing a healthy and nice circle of friends and family",
+                "3": "Working out",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 168,
+            "question": "If you could create your own job title, what would it be?"
+        },
+        {
+            "id": 169,
+            "question": "What do you get every time you go grocery shopping?",
+            "answers": {
+                "0": "... *Food?* What else would I get?",
+                "1": "Ramen",
+                "2": "A new condiment to try",
+                "3": "Some weird fruit? Or is it a vegetable? idk, I guess I'll see soon enough",
+                "4": "Some shit I forgot on my first trip there cause I didn't read the recipe",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 170,
+            "question": "What is your favorite thing to cook? Could you show us some pictures or a recipe?"
+        },
+        {
+            "id": 171,
+            "question": "If you could have a never-ending candle that smelled like anything you wanted, what fragrance would you want it to be?"
+        },
+        {
+            "id": 172,
+            "question": "What job do you think you'd be really good at?"
+        },
+        {
+            "id": 173,
+            "question": "What app can you not believe someone hasn't made yet?"
+        },
+        {
+            "id": 174,
+            "question": "What natural landmark would you like to see someday?"
+        },
+        {
+            "id": 175,
+            "question": "What is something you learned in the last week?"
+        },
+        {
+            "id": 176,
+            "question": "What's your favorite video game console and game or series on that console?",
+            "answers": {
+                "0": "NES",
+                "1": "SNES",
+                "2": "N64",
+                "3": "PS2",
+                "4": "XBox 360",
+                "5": "PS4",
+                "6": "Switch",
+                "7": "PC",
+                "8": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 177,
+            "question": "What game have you spent the most hours playing? Show us them Steam hours"
+        },
+        {
+            "id": 178,
+            "question": "What's the longest trip you've been on?"
+        },
+        {
+            "id": 179,
+            "question": "What would be some of the downsides of certain superpowers?"
+        },
+        {
+            "id": 180,
+            "question": "What is your most used emoji?"
+        },
+        {
+            "id": 181,
+            "question": "When people come to you for help, what do they usually want help with?",
+            "answers": {
+                "0": "Money",
+                "1": "Homework",
+                "2": "Connections",
+                "3": "Being an extra pair of hands/eyes",
+                "4": "A shoulder to cry on",
+                "5": "A place to crash",
+                "6": "A ride",
+                "7": "Nothing lol",
+                "8": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 182,
+            "question": "What hobby would you get into if time and money weren't an issue?",
+            "answers": {
+                "0": "Computers",
+                "1": "Modeling (like those mini things you build, not 3d modeling)",
+                "2": "Art, with all that fancy art tablets and stuff",
+                "3": "Music",
+                "4": "Cars",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 183,
+            "question": "If you could convince everyone in the world to do one thing at one point in time, what would that thing be?",
+            "answers": {
+                "0": "World Peace",
+                "1": "Climate Change",
+                "2": "Socialism/Anarchism",
+                "3": "Space Exploration",
+                "4": "Equality",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 184,
+            "question": "If you could change one plot line of a piece of fiction, which would it be and why?"
+        },
+        {
+            "id": 185,
+            "question": "What really needs to be modernized?"
+        },
+        {
+            "id": 187,
+            "question": "When things break, do you prefer to fix them or replace them?",
+            "answers": {
+                "0": "Replace, I have the funds available so I might as well",
+                "1": "Replace, I hate my old shit",
+                "2": "Fix, I like my old shit",
+                "3": "Fix, I'm poor and can't afford shit",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 188,
+            "question": "What is your favorite family dish?"
+        },
+        {
+            "id": 189,
+            "question": "What show have you been watching lately?"
+        },
+        {
+            "id": 190,
+            "question": "What music have you been listening to lately?"
+        },
+        {
+            "id": 191,
+            "question": "What workers have the worst jobs?"
+        },
+        {
+            "id": 192,
+            "question": "If you could teleport, where would you go to first?"
+        },
+        {
+            "id": 193,
+            "question": "What would be some of the most annoying things about having yourself as a roommate?"
+        },
+        {
+            "id": 194,
+            "question": "If you could slow down time, what would you do with that power?"
+        },
+        {
+            "id": 195,
+            "question": "You're going to sail around the world, what's the name of your boat?"
+        },
+        {
+            "id": 196, 
+            "question": "If you could level up in life just like in video games, where would you put your next skill point?"
+        },
+        {
+            "id": 197,
+            "question": "What's your \"usual\" from your favorite fast food joint?"
+        },
+        {
+            "id": 199,
+            "question": "What is the farthest you have ever been from where you were born?",
+            "answers": {
+                "0": "Never left the city and/or suburban area",
+                "1": "Only within my state / province",
+                "2": "Only within my geographic area (ie Bible Belt, New England, Pacific Northwest)",
+                "3": "Only within my country",
+                "4": "Only within my continent",
+                "5": "Across and ocean",
+                "6": "I've legit been across the globe from my house"
+            }
+        },
+        {
+            "id": 200,
+            "question": "Are you more of an early bird or a night owl?",
+            "answers": {
+                "0": "I wake up early because school makes me to be at the bus stop at 6AM",
+                "1": "I wake up early to make breakfast for family",
+                "2": "I wake up at a normal time",
+                "3": "Night owl, I stay up till like midnight to 3 in the morning",
+                "4": "I only go to sleep when the sun starts to come up",
+                "5": "Y'all are sleeping?!"
+            }
+        },
+        {
+            "id": 201,
+            "question": "You can only have one food condiment for the rest of your life, which do you choose?",
+            "answers": {
+                "0": "Ketchup",
+                "1": "Chic-fil-a sauce",
+                "2": "BBQ Sauce",
+                "3": "Buffalo Sauce",
+                "4": "Vinegar",
+                "5": "Hot Sauce",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 202,
+            "question": "Do you pour the milk in before the cereal, or the cereal before the milk?",
+            "answers": {
+                "0": "Cereal first",
+                "1": "Milk first",
+                "2": "Bowl first"
+            }
+        },
+        {
+            "id": 203,
+            "question": "What song is stuck in your head right now?"
+        },
+        {
+            "id": 204,
+            "question": "What song is a 10/10, yet hardly anyone has heard of it?"
+        },
+        {
+            "id": 205,
+            "question": "What piece of media is near perfect, but the fanbase around it completely ruins it?"
+        },
+        {
+            "id": 206,
+            "question": "What is the worst tasting thing you have ever eaten?"
+        },
+        {
+            "id": 207,
+            "question": "What was the worst date you've ever been on?"
+        },
+        {
+            "id": 208,
+            "question": "What happened this week that made you happy?"
+        },
+        {
+            "id": 209,
+            "question": "If you had to leave your country permanently, where would you relocate to?",
+            "answers": {
+                "0": "Canada",
+                "1": "Br*tain (instant ban, Scotland is fine tho)",
+                "2": "Taiwan",
+                "3": "Germany",
+                "4": "Sweden",
+                "5": "Japan",
+                "6": "Singapore",
+                "7": "UAE",
+                "8": "North Korea, just for the inevitable execution",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 210,
+            "question": "What do you like to collect?"
+        },
+        {
+            "id": 211,
+            "question": "What is your favorite summer activity?"
+        },
+        {
+            "id": 212,
+            "question": "What words do you consistently spell wrong no matter how hard you try?"
+        },
+        {
+            "id": 214,
+            "question": "Who is your favorite superhero? Who is your favorite villain?"
+        },
+        {
+            "id": 215,
+            "question": "What caused you to feel nostalgia recently?"
+        },
+        {
+            "id": 217,
+            "question": "If you were given 500 acres of land, what would you use it for?",
+            "answers": {
+                "0": "Living the Stardew Valley life",
+                "1": "Creating my own mini feudal kingdom",
+                "2": "Make a commune",
+                "3": "Return to monke",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 218,
+            "question": "What kind of business would you like to start if you were given the chance?",
+            "answers": {
+                "0": "Bakery",
+                "1": "Art Studio",
+                "2": "Museum",
+                "3": "School",
+                "4": "Restaurant",
+                "5": "Bar",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 219,
+            "question": "You have your own late-night talk show, who do you invite as your first guest?"
+        },
+        {
+            "id": 220,
+            "question": "What's the most embarrassing fashion trend you used to rock?"
+        },
+        {
+            "id": 221,
+            "question": "If the internet suddenly stopped existing, what would you do with the time you used to spend on it?",
+            "answers": {
+                "0": "Preparing for the fall of civilization",
+                "1": "Unplug and re-plug my modem for like a day",
+                "2": "Actually learning shit",
+                "3": "Reading more",
+                "4": "Working more, getting paid",
+                "5": "Gardening",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 222,
+            "question": "What upcoming media (movie, show, game, etc.) are you most looking forward to?"
+        },
+        {
+            "id": 223,
+            "question": "If you could bring back any fashion trend what would it be?"
+        },
+        {
+            "id": 224,
+            "question": "What kitchen tool or appliance do you find especially useful?",
+            "answers": {
+                "0": "Dish Washer",
+                "1": "Slow Cooker",
+                "2": "Stand Mixer",
+                "3": "Pressure Cooker",
+                "4": "Air Fryer",
+                "5": "Sous Vide",
+                "6": "Coffee Maker",
+                "7": "Microplane",
+                "8": "Cast Iron Pan",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 225,
+            "question": "You have to sing karaoke, what song do you pick?"
+        },
+        {
+            "id": 228,
+            "question": "Would you rather only be able to use a fork (no spoon) or only be able to use a spoon (no fork)?",
+            "answers": {
+                "0": "Only Fork",
+                "1": "Only Spoon",
+                "2": "Just give me chop sticks"
+            }
+        },
+        {
+            "id": 229,
+            "question": "If you could have an unlimited supply of one thing for the rest of your life, what would it be?"
+        },
+        {
+            "id": 230,
+            "question": "What was your least favorite food as a child? Do you still hate it or have you grown to like it?"
+        },
+        {
+            "id": 231,
+            "question": "What's your favorite sandwich? What do you like to put on it?"
+        },
+        {
+            "id": 232,
+            "question": "What fictional item do you wish you owned in real life?"
+        },
+        {
+            "id": 233,
+            "question": "What recent scientific discovery blows your mind?"
+        },
+        {
+            "id": 234,
+            "question": "If you could switch jobs with someone else for a week, what job would you like to try?"
+        },
+        {
+            "id": 235,
+            "question": "You have 5 minutes, what's the best drawing (hand drawn or digital) you can make?"
+        },
+        {
+            "id": 236,
+            "question": "If you could control any of the four elements (earth, water, air, and fire), which would you choose and why?",
+            "answers": {
+                "0": "Earth",
+                "1": "Water",
+                "2": "Air",
+                "3": "Fire",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 237,
+            "question": "Would you rather have bionic arms or bionic legs?",
+            "answers": {
+                "0": "Bionic Arms",
+                "1": "Bionic Legs"
+            }
+        },
+        {
+            "id": 238,
+            "question": "What are you proud of, but never have an excuse to talk about?"
+        },
+        {
+            "id": 239,
+            "question": "What is something that is important that you never really talk about?"
+        },
+        {
+            "id": 241,
+            "question": "How's your day going so far?",
+            "answers": {
+                "0": "Good",
+                "1": "Pretty good",
+                "2": "Good enough",
+                "3": "Could be worse",
+                "4": "Could be better",
+                "5": "Bad",
+                "6": "Shit",
+                "7": "***END ME***",
+                "8": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 243,
+            "question": "Before making a telephone call, do you ever rehearse what you are going to say?",
+            "answers": {
+                "0": "Yeah, I'm a nervous wreck",
+                "1": "No, I'm a fully grown adult"
+            }
+        },
+        {
+            "id": 244,
+            "question": "What would constitute a \"perfect\" day for you?"
+        },
+        {
+            "id": 245,
+            "question": "When did you last sing to yourself? To someone else?"
+        },
+        {
+            "id": 246,
+            "question": "Do you have a hunch about how you will die?"
+        },
+        {
+            "id": 247,
+            "question": "For what in your life do you feel most grateful?"
+        },
+        {
+            "id": 248,
+            "question": "If you could change anything about the way you were raised, what would it be?"
+        },
+        {
+            "id": 249,
+            "question": "Is there something that you've dreamed of doing for a long time? Why haven't you done it?"
+        },
+        {
+            "id": 250,
+            "question": "What is the greatest accomplishment of your life?"
+        },
+        {
+            "id": 251,
+            "question": "What do you value most in a friendship?"
+        },
+        {
+            "id": 252,
+            "question": "What is your most treasured memory?"
+        },
+        {
+            "id": 253,
+            "question": "What is your most terrible memory?"
+        },
+        {
+            "id": 254,
+            "question": "When did you last cry in front of another person? By yourself?"
+        },
+        {
+            "id": 255,
+            "question": "What, if anything, is too serious to be joked about?"
+        },
+        {
+            "id": 256,
+            "question": "If you could bankrupt any person, company, country, or organization… who would it be?"
+        },
+        {
+            "id": 257,
+            "question": "What is your drink of choice?"
+        },
+        {
+            "id": 258,
+            "question": "If someone offered you $10 million for a quarter pound of your flesh for them to consume, would you do it?",
+            "answers": {
+                "0": "Yes",
+                "1": "Only if I get to choose where the flesh comes off my body",
+                "2": "No, they would have to pay me more",
+                "3": "Never, thats really weird",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 261,
+            "question": "What is your least favorite song by your favorite artist?"
+        },
+        {
+            "id": 262,
+            "question": "If you were a flavor, which one would you be?"
+        },
+        {
+            "id": 263,
+            "question": "Would prefer to be buried or cremated?",
+            "answers": {
+                "0": "Cremated",
+                "1": "Buried",
+                "2": "Thrown into the sun",
+                "3": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 264,
+            "question": "What work would you do if you had enough money to not have to work?"
+        },
+        {
+            "id": 265,
+            "question": "Describe your best friend."
+        },
+        {
+            "id": 267,
+            "question": "Would you rather have the ability to fly or to teleport?",
+            "answers": {
+                "0": "Fly, for the freedom and so I could carry people/things",
+                "1": "Teleporting, for the speed"
+            }
+        },
+        {
+            "id": 268,
+            "question": "What's your biggest passion you just don't have the opportunity to pursue more?"
+        },
+        {
+            "id": 269,
+            "question": "How do you define success?"
+        },
+        {
+            "id": 270,
+            "question": "What do you love doing, but hate succeeding in?"
+        },
+        {
+            "id": 271,
+            "question": "When was the last time someone said \"I love you\" to you?",
+            "answers": {
+                "0": "Today",
+                "1": "Yesterday",
+                "2": "This week",
+                "3": "This month",
+                "4": "This year",
+                "5": "Can't recall when it was, but it did happen",
+                "6": "Never, lol"
+            }
+        },
+        {
+            "id": 272,
+            "question": "What stranger will you never forget?"
+        },
+        {
+            "id": 273,
+            "question": "What is the darkest secret about a member of your family?"
+        },
+        {
+            "id": 274,
+            "question": "What is something SFW that you would be embarrassed to have in your search history?"
+        },
+        {
+            "id": 275,
+            "question": "What was one piece of media that you thought was amazing as a kid but realize is just dogshit now?"
+        },
+        {
+            "id": 276,
+            "question": "What is the best **non-sexual** pleasure or sensation a human can experience?"
+        },
+        {
+            "id": 277,
+            "question": "What was your biggest \"treat yourself\" regret?"
+        },
+        {
+            "id": 278,
+            "question": "What was your biggest \"well, now I don't want to\" moment?"
+        },
+        {
+            "id": 279,
+            "question": "What was your \"I should not have watched this\" movie?"
+        },
+        {
+            "id": 280,
+            "question": "What was the worst thing a therapist has ever said to you?"
+        },
+        {
+            "id": 281,
+            "question": "What are you secretly insecure about?",
+            "answers": {
+                "0": "I'm actually very dumb, I just sound smart",
+                "1": "Not experiencing a fulfilling romantic relationship",
+                "2": "Not fully developed social skills",
+                "3": "Inability to do basic everyday adult tasks",
+                "4": "Mental status (ADD/ADHD, depression, anxiety, etc.)",
+                "5": "Appearance (more than just your body)",
+                "6": "My voice",
+                "7": "Being boring to others",
+                "8": "My taste in media (music, movies, television)",
+                "9":"Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 282,
+            "question": "What's a privilege that most people don't realize is a privilege?",
+            "answers": {
+                "0": "Not getting killed by the cops",
+                "1": "Sleeping through the night",
+                "2": "Having two stable parents",
+                "3": "Having a bed",
+                "4": "Driving",
+                "5": "Air conditioning / heat",
+                "6": "Being conventionally beautiful",
+                "7": "Being able to walk alone at night",
+                "8": "Being right handed",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 284,
+            "question": "What was your worst teacher like?",
+            "answers": {
+                "0": "That motherfucker hated me!",
+                "1": "They were a racist/sexist/homophobic pos",
+                "2": "No idea how they got a teaching job",
+                "3": "I lost brain cells in their class",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 285,
+            "question": "What's a huge fuck up in history that people don't remember?"
+        },
+        {
+            "id": 286,
+            "question": "What's a myth that seems real but isn't?"
+        },
+        {
+            "id": 287,
+            "question": "If the internet had a national anthem, what would it be?",
+            "answers": {
+                "0": "The hamster dance",
+                "1": "All Star by Smash Mouth",
+                "2": "Soviet Union National Union - Bass Boosted",
+                "3": "Sea Shanty 2",
+                "4": "Never Gonna Give You Up",
+                "5": "Darude Sandstorm",
+                "6": "Nyan Cat",
+                "7": "What's Goin' On - He-Man Version",
+                "8": "Numa Numa",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 288,
+            "question": "How often do you exercise?",
+            "answers": {
+                "0": "Multiple times a day",
+                "1": "Once a day",
+                "2": "Couple of times a week",
+                "3": "Once a week",
+                "4": "Once in a while",
+                "5": "Only in January as part of my 'New Years Resolution' that I wil *totally* do this year",
+                "6": "Never",
+                "7": "I barely get out of bed everyday, much less exercise",
+                "8": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 289,
+            "question": "If you could domesticate any animal to be a pet, what would it be?",
+            "answers": {
+                "0": "Racoons",
+                "1": "Opossums",
+                "2": "Otters",
+                "3": "Floppas",
+                "4": "Foxes",
+                "5": "A Hawk",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 290,
+            "question": "Who's the wacko person in your family?",
+            "answers": {
+                "0": "My Aunt",
+                "1": "My Uncle",
+                "2": "Grandma / Grandpa",
+                "3": "My Mom",
+                "4": "My Dad",
+                "5": "My Brother",
+                "6": "My Sister",
+                "7": "My SO",
+                "8": "Me",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 291,
+            "question": "What's the best non-ketchup dip for French fries?",
+            "answers": {
+                "0": "Mayo",
+                "1": "Homey Mustard",
+                "2": "Ranch",
+                "3": "Mustard",
+                "4": "BBQ Sauce",
+                "5": "Vinegar",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 292,
+            "question": "What is the tastiest snack?",
+            "answers": {
+                "0": "Popcorn",
+                "1": "Beef Jerky",
+                "2": "Doritos",
+                "3": "Wasabi Green Peas",
+                "4": "Cheese, like out of the bag/block",
+                "5": "Cheetos/Flaming Hot Cheetos",
+                "6": "Grapes",
+                "7": "Blueberries",
+                "8": "Pizza Rolls",
+                "9":"Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 293,
+            "question": "What is the best shape?",
+            "answers": {
+                "0": "Circle, cause like this question it has no point",
+                "1": "Hexagons are the best-a-gons",
+                "2": "Triangle, cause Illuminati or some shit",
+                "3": "Rhombus cause it looks cool and I like the name",
+                "4": "Mobius Strip, cause my love for it never ends",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 294,
+            "question": "How unlucky were you in the genetic lottery"
+        },
+        {
+            "id": 295,
+            "question": "What's your favorite sport?",
+            "answers": {
+                "0": "Football (American)",
+                "1": "Soccer (Football for non-Americans)",
+                "2": "Basketball",
+                "3": "Baseball",
+                "4": "Cricket",
+                "5": "Tennis",
+                "6": "Wrestling/Boxing",
+                "7": "eSports",
+                "8": "Rugby",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 296,
+            "question": "How do you answer the phone?",
+            "answers": {
+                "0": "I don't",
+                "1": "Hello",
+                "2": "Hiya!",
+                "3": "Howdy!",
+                "4": "What's up?",
+                "5": "Hello there!",
+                "6": "Ahoy!",
+                "7": "Oi!",
+                "8": "Hey",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 297,
+            "question": "What YouTuber that has under 100K subs do you think needs a shoutout?"
+        },
+        {
+            "id": 298,
+            "question": "What fact makes you feel old?",
+            "answers": {
+                "0": "9/11 was over a decade ago",
+                "1": "The Classic Rock station is playing songs from the 90's and 00's",
+                "2": "My friends are getting married and having kids",
+                "3": "We're closer to 2040 than 2000",
+                "4": "Shrek is 20 years old",
+                "5": "Fidget spinners were popular 4 years ago",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 299,
+            "question": "What's the most boring movie cliché",
+            "answers": {
+                "0": "The magical breakfast table full of fresh orange juice, pancakes, bacon, eggs, muffins, waffles, a full urn of coffee and cinnamon buns. Family eats two bites and leaves.",
+                "1": "\"He's right behind me, isn't he?\"",
+                "2": "Every story needs a romantic side plot",
+                "3": "Guy finally wins girl after stalking her, harassing her, and bullying her into loving him.",
+                "4": "\"I'm not a pretty person\" said like a very attractive person",
+                "5": "It only takes 1 punch to knock out/kill a henchmen but the second it's the main bad guy, it's a 40 minute fight and both typically walk away, mostly unscathed and able to do the same thing the next day.",
+                "6": "Bombs being stopped with 1 second left on the timer",
+                "7": "Main characters must bang",
+                "8": "It was all just a dreeeeeam",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 300,
+            "question": "What's the most \"I'm turning into my parents\" moment for you?",
+            "answers": {
+                "0": "The first time “get off of my lawn “ popped in my head",
+                "1": "I rearrange the plates in the dishwasher if my partner put them \"wrong\" so I can do full loads and use up all the space.",
+                "2": "Taking a nap",
+                "3": "Going to bed at 9",
+                "4": "When I had a cabinet full of plastic grocery bags",
+                "5": "Yelling at nearly everyone",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 301,
+            "question": "What is considered \"taboo\" for no good reason",
+            "answers": {
+                "0": "Breastfeeding in public",
+                "1": "Cursing",
+                "2": "Doing things alone (ie. Movies/Sit Down Restaurant)",
+                "3": "Talking about mental health and not being okay",
+                "4": "Sharing your salary with people you work with",
+                "5": "Women enjoying sex and talking about it",
+                "6": "Men with painted fingernails",
+                "7": "Elbows on the table",
+                "8": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 302,
+            "question": "If you could take a pill to skip sleep, allowing you to feel fully rested with no side effects, would you use it? What would you do with it?",
+            "answers": {
+                "0": "No, sleep is the only break I get",
+                "1": "I get everything done already, I don't need it",
+                "2": "I would get another job",
+                "3": "I would study more",
+                "4": "I would have more time with my friends or family",
+                "5": "I would save the pills for when I have to drive cross country",
+                "6": "I'd just play more video games probably",
+                "7": "Learn new skills",
+                "8": "Just catch up on movies/TV",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 303,
+            "question": "What do you **refuse** the cheap version of?",
+            "answers": {
+                "0": "Shoes",
+                "1": "Tattoos",
+                "2": "Condoms/Contraceptive",
+                "3": "Underwear/Bras",
+                "4": "Bedding",
+                "5": "Toilet paper",
+                "6": "Skincare",
+                "7": "Booze",
+                "8": "Clothes",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 305,
+            "question": "What's a fact from history that sounds completely fake?"
+        },
+        {
+            "id": 306,
+            "question": "What's the real life equivalent of rolling a 1?",
+            "answers": {
+                "0": "Stepping into a mystery puddle in your home with socks on",
+                "1": "Light turns red just as you approach it",
+                "2": "Stubbing your toe",
+                "3": "Computer crashes when you you haven't saved your project in a long time",
+                "4": "Forgot to charge your phone overnight",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 307,
+            "question": "What do you need right now?",
+            "answers": {
+                "0": "Money",
+                "1": "Attention",
+                "2": "Serotonin",
+                "3": "Some cheeks to clap",
+                "4": "Healthcare pls",
+                "5": "Some fucking rest",
+                "6": "Some help",
+                "7": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 307,
+            "question": "what do you regret most wasting your money on?",
+            "answers": {
+                "0": "Buying more games on Steam, damn well knowing I'm just going to continue to play the same three games till the day I die",
+                "1": "Having food delivered through those apps",
+                "2": "Booze, that shit fucks you up",
+                "3": "Buying GameStop stock",
+                "4": "My Ex",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 308,
+            "question": "What fan theory di you 100% accept as true",
+            "answers": {
+                "0": "Kermit did 9/11",
+                "1": "Andy's parents are in the middle of a divorce in Toy Story 1",
+                "2": "Courage the dog is exaggerating normal things into scary things because he is a dog",
+                "3": "Scooby Doo is a show about draft dodgers during the Vietnam War",
+                "4": "Dittos are failed Mew clones",
+                "5": "Mr.Bean is an alien",
+                "6": "JarJar Binks is a sith lord",
+                "7": "Bikini Bottom is Bikini Atoll",
+                "8": "Padme died because Darth Sidious used her energy to save Anakin",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 309,
+            "question": "If people came with a warning tag, what would yours be?",
+            "answers": {
+                "0": "Short Battery life",
+                "1": "Tolerable only in small doses",
+                "2": "Do not eat",
+                "3": "Warning: choking hazard. Small parts",
+                "4": "Some assembly required",
+                "5": "Warning: I’m sorry for apologizing so much",
+                "6": "Contains nuts",
+                "7": "Eats Anything",
+                "8": "All Sales Final",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 310,
+            "question": "For five minutes you are transported 30 years into the future, you sit in front of a computer, what do you look up?",
+            "answers": {
+                "0": "Lotto number/ good stocks",
+                "1": "Myself",
+                "2": "Wait... Where's the keyboard?",
+                "3": "Is Overwatch 2/GTA 6/Heavy Update out yet?",
+                "4": "Is Queen Elizabeth II still alive?.. Oh, she still is...",
+                "5": "Big butts",
+                "6": "World War 3",
+                "7": "The most livable place due to climate change",
+                "8": "Future memes",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 311,
+            "question": "What did a teacher do that made you automatically gain respect for them?",
+            "answers": {
+                "0": "Use the correct pronouns",
+                "1": "They actually gave a shit",
+                "2": "Treated us like adults",
+                "3": "Very understanding about their students circumstances",
+                "4": "They gave money to Wikipedia",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 312,
+            "question": "What's the biggest bullet you've ever dodged?"
+        },
+        {
+            "id": 313,
+            "question": "What \"fake\" thing in movies pisses you off the most?",
+            "answers": {
+                "0": "Firing guns in enclosed spaces not deafening anyone",
+                "1": "When the actor clearly doesn't know how to play the instrument they're holding",
+                "2": "People are fine mere moments after a brutal fight",
+                "3": "Acting like a piece of duct tape will silence someone",
+                "4": "Turning on the TV exactly when some very relevant news report starts",
+                "5": "How bad the bad guys aim is",
+                "6": "Shooting a computer monitor to stop a computer",
+                "7": "Gift wrapping the box and lid separately",
+                "8": "How every home is spotless",
+                "9":"Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 314,
+            "question": "What is the dumbest way you got a scar?"
+        },
+        {
+            "id": 315,
+            "question": "What do you think happens when we die?",
+            "answers": {
+                "0": "Play as Luigi",
+                "1": "Black",
+                "2": "Nothing",
+                "3": "Big sleep",
+                "4": "Reincarnated as some shit",
+                "5": "Whatever my religion says",
+                "6": "Student load people goes after my family",
+                "7": "Whatever it was like before I was born",
+                "8": "Our loved ones will miss us",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 316,
+            "question": "What is a song you cannot listen to for emotional reasons?"
+        },
+        {
+            "id": 317,
+            "question": "What movie is so disturbing you cannot watch it again?",
+            "answers": {
+                "0": "Beasts of No Nation",
+                "1": "Antichrist",
+                "2": "Grave of the Fireflies",
+                "3": "The Emoji Movie",
+                "4": "Midsommar",
+                "5": "Heredity",
+                "6": "Schindler’s List",
+                "7": "A Serbian Film",
+                "8": "Human Centipede",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 318,
+            "question": "What is a common skill that you just can't master?",
+            "answers": {
+                "0": "Snapping",
+                "1": "Cooking",
+                "2": "Dancing",
+                "3": "Whistling",
+                "4": "Being able to fall asleep",
+                "5": "Remembering names",
+                "6": "Rolling my tongue",
+                "7": "Waking up to an alarm clock",
+                "8": "Folding a fitted sheet",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 319,
+            "question": "What is the \"Holy Grail\" of the ting you're a collector of?"
+        },
+        {
+            "id": 320,
+            "question": "How would you be expelled from Willy Wonka's Factory?",
+            "answers": {
+                "0": "I'm diabetic",
+                "1": "Biting an oompa loompa to see if they are made out of candy",
+                "2": "For teaching the Oompa Loompas how to unionize",
+                "3": "Lost my ticket on the way there",
+                "4": "Killing off one of the other kids",
+                "5": "Calling OSHA in the first 5 minutes",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 321,
+            "question": "If animals could talk, which would be the rudest?",
+            "answers": {
+                "0": "Canadian Geese",
+                "1": "Llamas",
+                "2": "Goats",
+                "3": "Seagulls",
+                "4": "Chihuahuas",
+                "5": "Wasps",
+                "6": "Ur mom, lol",
+                "7": "My Cat",
+                "8": "Hyenas",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 322,
+            "question": "What gives you anxiety?",
+            "answers": {
+                "0": "Time",
+                "1": "*Gestures vaguely at everything*",
+                "2": "Silence",
+                "3": "When I get a phone call",
+                "4": "\"We need to talk\"",
+                "5": "Cops",
+                "6": "People",
+                "7": "Decisions",
+                "8": "My Job/School",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 323,
+            "question": "What game will replace BINGO in the nursing homes in 30 years",
+            "answers": {
+                "0": "Minecraft",
+                "1": "UNO",
+                "2": "Dungeons and Dragons",
+                "3": "Cards Against Humanity",
+                "4": "BINGO",
+                "5": "Counter Strike",
+                "6": "Monopoly",
+                "7": "LoL",
+                "8": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 324,
+            "question": "What part of your personality do you fake the most?",
+            "answers": {
+                "0": "Confidence",
+                "1": "Patience",
+                "2": "Energy, I want to sleep",
+                "3": "I have a personality???",
+                "4": "Pacifism, I just want to punch people",
+                "5": "Being Cis/Straight/etc",
+                "6": "Being interested, I actually don't care",
+                "7": "Professionalism, swear words are fun",
+                "8": "Pretending to care about other peoples problems"
+            }
+        },
+        {
+            "id": 325,
+            "question": "What's your current reason for being happy?",
+            "answers": {
+                "0": "I'm not",
+                "1": "My S/O",
+                "2": "Fun things in the future",
+                "3": "Good thing happened recently",
+                "4": "idk, I just am",
+                "5": "No stress",
+                "6": "I'm alive, that's pretty cool if you ask me",
+                "7": "Nothing is going wrong",
+                "8": "My friends",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 326,
+            "question": "Why are you single?",
+            "answers": {
+                "0": "Lack of self confidence",
+                "1": "I don't like people",
+                "2": "I'm not much to look at",
+                "3": "Everyone else is just too ugly",
+                "4": "I'm not single I'm a collection of cells",
+                "5": "by choice",
+                "6": "I'm too busy with junk",
+                "7": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 327,
+            "question": "What is your \"type\"",
+            "answers": {
+                "0": "Smart",
+                "1": "fat ass",
+                "2": "Mentally stable",
+                "3": "Someone that likes me",
+                "4": "A heartbeat",
+                "5": "Water type",
+                "6": "People who smell nice",
+                "7": "Whatever my partner is",
+                "8": "Two dimensional",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 328,
+            "question": "What is considered romantic but is actually creepy",
+            "answers": {
+                "0": "Standing outside someone's house and refusing to leave till they go out with you/forgive you",
+                "1": "Watching someone sleep",
+                "2": "Love at first sight",
+                "3": "Needing to spend every second with someone",
+                "4": "\"Soulmates\"",
+                "5": "\"I can't live without you\"",
+                "6": "Persistently trying to win someone's love",
+                "7": "Surprise visit",
+                "8": "Jealousy",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 329,
+            "question": "What is the cutest thing your pet has done?",
+            "answers": {
+                "0": "Exist",
+                "1": "Cleaning themselves",
+                "2": "Playing with another pet",
+                "3": "Being dumb",
+                "4": "Laying their head on my lap and begging for pets",
+                "5": "Using me as a bed",
+                "6": "Trying to be a lap pet, despite the fact they are way too large to be one",
+                "7": "The sounds they make",
+                "8": "Flop",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 330,
+            "question": "What is the worst name you could give a child"
+        },
+        {
+            "id": 331,
+            "question": "What only exists to fuck all of us?",
+            "answers": {
+                "0": "Wasps",
+                "1": "Bedbugs",
+                "2": "Wisdom teeth",
+                "3": "Fake pockets",
+                "4": "Share/Chromecast button on porn sites",
+                "5": "Asking for a credit card for free trial",
+                "6": "Single-ply toilet paper",
+                "7": "American Tax system",
+                "8": "ur mom lol",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 332,
+            "question": "What's Cool now, but won't be in 5 years?",
+            "answers": {
+                "0": "All the shit people be doing on TikTok",
+                "1": "Greenland",
+                "2": "Corporations trying to be weird and relatable on Twitter",
+                "3": "Vaping",
+                "4": "Electric Cars",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 333,
+            "question": "What are some ***GREEN*** flags early on in dating that the relationship should become serious?",
+            "answers": {
+                "0": "Going on a road trip and not hating each other afterwards",
+                "1": "The ability to apologize",
+                "2": "If they respond well when you're dealing with a crisis situation",
+                "3": "Encouraging growth, but doesn't try to change your foundation",
+                "4": "Taking embarrassing shit in stride",
+                "5": "Comfortable silences",
+                "6": "Can make each other laugh",
+                "7": "Maturity",
+                "8": "When they treat their parents well",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 334,
+            "question": "What's something you'd love to see but won't be alive for?",
+            "answers": {
+                "0": "Betelgeuse being the brightest star in the sky",
+                "1": "Traveling to a different planet",
+                "2": "Hale Bopp comet",
+                "3": "The birth of James T. Kirk on March 22, 2233",
+                "4": "Bullet trains in North America",
+                "5": "People picking up their dogs shit",
+                "6": "Paying off my student debt",
+                "7": "A Song of Ice and Fire series being finished",
+                "8": "Aliens",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 335,
+            "question": "What's your \"comfort movie\"?",
+            "answers": {
+                "0": "Any 90s Disney movie",
+                "1": "Any Hayao Miyazaki movie",
+                "2": "Lord of the Rings",
+                "3": "Some \"so bad it's good\" movie",
+                "4": "Any Pixar movie",
+                "5": "Some anime shit",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 336,
+            "question": "What's legal now, but probably won't be in 10 years?",
+            "answers": {
+                "0": "Deep fakes",
+                "1": "Child marriage, hopefully",
+                "2": "Politicians receiving \"donations\" from rich people",
+                "3": "Eating beans in a movie theater",
+                "4": "Conversion therapy",
+                "5": "VPNs or any form of encryption",
+                "6": "Getting Mario 3D All-Stars",
+                "7": "Bitcoin",
+                "8": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 337,
+            "question": "Are you hopeful for the future?",
+            "answers": {
+                "0": "Very!",
+                "1": "Slightly",
+                "2": "Things will be about the same",
+                "3": "Things will get a little worse",
+                "4": "I'm expecting hell on earth"
+            }
+        },
+        {
+            "id": 338,
+            "question": "What is the worst social media?",
+            "answers": {
+                "0": "Facebook",
+                "1": "Twitter",
+                "2": "Instagram",
+                "3": "Reddit",
+                "4": "YouTube",
+                "5": "Discord",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 339,
+            "question": "What was supposed to be the \"Next big thing\", but totally flopped?",
+            "answers": {
+                "0": "Google Glass",
+                "1": "3D TV",
+                "2": "XBox Kinect",
+                "3": "MoviePass",
+                "4": "2020",
+                "5": "Windows Phone",
+                "6": "KONY 2012",
+                "7": "Quibi",
+                "8": "The Sabre Triangle Tablet",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 340,
+            "question": "What is a phrase you **HATE** hearing from people?",
+            "answers": {
+                "0": "That's nothing...",
+                "1": "In these trying times...",
+                "2": "Your English is so good!",
+                "3": "The customer is always right!",
+                "4": "It's a prank bro...",
+                "5": "Why are you so quiet?",
+                "6": "Money can't buy happiness",
+                "7": "Sorry not sorry",
+                "8": "Why don't you smile more?",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 341,
+            "question": "What was the pettiest reason you refused to date someone?",
+            "answers": {
+                "0": "My standards are so low I would never refuse anyone",
+                "1": "They smelled funny",
+                "2": "Had the same name as one of my parents",
+                "3": "They were the type to say they weren't hungry and then take bites out of my food",
+                "4": "Had to explain too much to them",
+                "5": "They lived on the other side of town and the traffic was just not worth it",
+                "6": "One word replies",
+                "7": "Never used a turn signal",
+                "8": "Used waaayyy to much emojis",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 342,
+            "question": "If cybernetic implants will become widely available in 10 years time, what body part would you modify?",
+            "answers": {
+                "0": "My back because I have the posture of a gremlin",
+                "1": "My eyes so I can see in higher detail, zoom in, and see with different kinds of light and more colors",
+                "2": "A stats tracker for my calorie intake and burn",
+                "3": "I will put the trans in transhumanism <:weedTrans:724832567123247217>",
+                "4": "A brain implant that exports my dreams to video",
+                "5": "A better stomach so that I can eat anything",
+                "6": "A tail",
+                "7": "Cat ears",
+                "8": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 343,
+            "question": "Everyone on the planet suddenly adopts your personality and behaviors. How fucked are we?",
+            "answers": {
+                "0": "Nothing will ever get done",
+                "1": "The world is at peace and harmony, only because nobody ever speaks to each other unless absolutely necessary",
+                "2": "All I can say is invest in companies that make first aid supplies",
+                "3": "Humanity goes extinct due to lack of procreation",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 344,
+            "question": "What is something that never fails to make you smile?",
+            "answers": {
+                "0": "Anything my S/O does <3",
+                "1": "What dogs do when their human comes home",
+                "2": "Tensing my upper cheek muscles slightly",
+                "3": "Talking to my friends",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 345,
+            "question": "What made you instantly lose interest in your crush?",
+            "answers": {
+                "0": "We went out and they did nothing but text other people the whole time",
+                "1": "They were mean to animals",
+                "2": "They started getting too edgy",
+                "3": "They weren't interested in my gender",
+                "4": "A lack of emotional intelligence",
+                "5": "They kept using internet lingo in real life",
+                "6": "Bigoted views",
+                "7": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 346,
+            "question": "What was the biggest mistake in human history",
+            "answers": {
+                "0": "Franz Ferdinand's driver taking a wrong turn",
+                "1": "Blockbuster not buying Netflix",
+                "2": "The Emoji Movie",
+                "3": "The Internet in general",
+                "4": "The burning of the library of Alexandria",
+                "5": "Teddy Roosevelt running for a third term on a third party, splitting the left wing vote and having Woodrow Wilson being president",
+                "6": "Evolving past primates, we need to return to monke",
+                "7": "Daylight savings time",
+                "8": "The Last Airbender live action movie",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 347,
+            "question": "If you were a demon, how would one summon you?",
+            "answers": {
+                "0": "Just say my name and I shall arrive",
+                "1": "Pspspsps usually works for real demons",
+                "2": "By making three grammatical errors in a row",
+                "3": "Casually mentioning that you don't know what music to listen to right now",
+                "4": "Up-Up-Down-Down-Left-Right-Left-Right-B-A",
+                "5": "Food",
+                "6": "Y̸̗͑̕o̶̞̜̓͒ŭ̸̢̺͙̍ ̶̢̉c̴̼̑a̵͙͌̐͗ṇ̵̭̹̐̈́ṇ̷̿ò̵͍̯̮̈́̐ẗ̴͖̗͇́ ̵̝̮̌s̵̺̊͂͑ͅu̵̝̘̮̍̚͝ṁ̸̛̼̬͓m̶͍̙͝o̷̜̘̒͑ǹ̵̞̈́͆ ̸̜͖̐̍͘m̵̳̯̐͝͠ë̶̟͖̜́,̵̡̡͕̎́ ̷̢̤̤̾̈I̸͔̤͛ ̸̟̺̙̋̕s̶̻̆̈́̑ȗ̴̧͋m̴̼͂͆͝m̸̹̝̐͐̄o̴̙͓̔n̵̠͑̓̉ ̸̢͉̑̏͘ŷ̸͖́̕o̶͖͂ȗ̵̼́͝",
+                "7": "Weed",
+                "8": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 348,
+            "question": "Jesus returns, what is his entrance music?"
+        },
+        {
+            "id": 349,
+            "question": "What's the best breakfast food?",
+            "answers": {
+                "0": "Hash browns",
+                "1": "Breakfast burritos",
+                "2": "Eggs and bacon",
+                "3": "Biscuits and gravy",
+                "4": "French Toast",
+                "5": "Oatmeal",
+                "6": "Beans on toast",
+                "7": "Cold Pizza",
+                "8": "Waffles",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            }
+        },
+        {
+            "id": 350,
+            "question": "You've been kidnaped. 30 minutes later your kidnapper dups you on the street because you won't stop talking about what?",
+            "answers": {
+                "0": "About how dicks are probably the origin of sea serpent legends",
+                "1": "My current D&D campaign",
+                "2": "True crime podcasts",
+                "3": "About how I didn't even get the candy they promised!",
+                "4": "\"*So let me tell you how Linux is a far better operating system and how the modern internet owes its life to Free and open source software*\"",
+                "5": "My newest MLM venture",
+                "6": "Constantly making eye contact and asking what is wrong",
+                "7": "Other; Talk about it in <#791375988008288266>"
+            },
+            "political": false,
+            "nsfw": false,
+            "serious": false
+        },
+        {
+            "id": 351,
+            "question": "What is the most toxic thing a parent can say to a child?",
+            "answers": {
+                "0": "I'm tired pretending to love you",
+                "1": "Talk shit about the other parent, then compare you to them",
+                "2": "You're the reason we divorced",
+                "3": "I don't believe you",
+                "4": "We made you so your sibling would have someone to play with",
+                "5": "Look this kid is doing it better than you",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            },
+            "political": false,
+            "nsfw": false,
+            "serious": true
+        },
+        {
+            "id": 352,
+            "question": "What do you genuinely not understand?",
+            "answers": {
+                "0": "How dry cleaning works",
+                "1": "The order of emails in a gmail thread",
+                "2": "Chemistry",
+                "3": "Sudden motivation are midnight",
+                "4": "The size of outer space",
+                "5": "The YouTube algorithm",
+                "6": "Electricity in general",
+                "7": "How a number going down in wall street means I lose my job, but when it goes up I get jack shit",
+                "8": "Existence and being self aware",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            },
+            "political": false,
+            "nsfw": false,
+            "serious": false
+        },
+        {
+            "id": 352,
+            "question": "What is your favorite quote from SpongeBob?",
+            "answers": {
+                "0": "I order the food, you cook the food, the customer eats the food. We do that for forty years, and then we die.",
+                "1": "\"He BURNED our crops, POISONED our water supply, and delivered a plague unto our house!!\" \"He did??\" \"No... But are we just going to wait around until he does??\"",
+                "2": "Once upon a time there was an ugly barnacle. He was so ugly that everyone died. The end!",
+                "3": "I was born with glass bones and paper skin. Every morning I break my legs, and every afternoon I break my arms. At night, I lie awake in agony until my heart attacks put me to sleep.",
+                "4": "Hey pal, you just blow in from stupid town?",
+                "5": "Goodbye everyone I'll remember you all in therapy",
+                "6": "He's just standing there.... **menacingly**",
+                "7": "What is today but yesterday's tomorrow?",
+                "8": "Krusty Krab is unfair! Mr. Krabs is in there! Standing at the concessions! Plotting his oppressions!",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            },
+            "political": false,
+            "serious": false,
+            "nsfw": false
+        },
+        {
+            "id": 353,
+            "question": "What is an adult problem that nobody prepared you for?",
+            "answers": {
+                "0": "Aging parents",
+                "1": "How childish other adults could be",
+                "2": "Being tired all the time",
+                "3": "The endless cleaning",
+                "4": "Back pain",
+                "5": "How hard it is to make and keep friends",
+                "6": "Budgeting your finances",
+                "7": "Other; Talk about it in <#791375988008288266>"
+            },
+            "nsfw": false,
+            "serious": true,
+            "political": false
+        },
+        {
+            "id": 354,
+            "question": "What is a common myth about where you live that is 100% false but many people still believe it?",
+            "answers": {
+                "0": "Full of drunks/addicts",
+                "1": "We're all nut jobs",
+                "2": "No sense of humor",
+                "3": "We're all rich or poor",
+                "4": "We're all sad and depressed",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            },
+            "political": false,
+            "serious": false,
+            "nsfw": false
+        },
+        {
+            "id": 355,
+            "question": "What seems harmless but is incredibly dangerous?",
+            "answers": {
+                "0": "Putting your feet up on the dashboard of a car",
+                "1": "Not cleaning the lint in your cloths dryer",
+                "2": "Inhaling helium",
+                "3": "Garage door springs",
+                "4": "Not checking your car tires",
+                "5": "Starting a car in a enclosed space",
+                "6": "Eating spoonful's of peanut butter",
+                "7": "Not wearing sunscreen",
+                "8": "Other; Talk about it in <#791375988008288266>"
+            },
+            "nsfw": false,
+            "serious": false,
+            "political": false
+        },
+        {
+            "id": 356,
+            "question": "What never fails to make you tear up or cry?",
+            "answers": {
+                "0": "Parents telling their kids that they are proud of them",
+                "1": "Seeing someone else in emotional pain",
+                "2": "Goodbyes in general",
+                "3": "The first ten minutes of Up",
+                "4": "Avatar Season 2 Episode 15",
+                "5": "Onions",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            },
+            "serious": false,
+            "political": false,
+            "nsfw": false
+        },
+        {
+            "id": 357,
+            "question": "What would make you willing to pay for an OnlyFans?",
+            "answers": {
+                "0": "Rare memes",
+                "1": "I'm a Linus Tech Tips fan",
+                "2": "Gotta support the fam, you know?",
+                "3": "Genitalia",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            },
+            "nsfw": true,
+            "political": false,
+            "serious": false
+        },
+        {
+            "id": 358,
+            "question": "What completely legal substance are you addicted to?",
+            "answers": {
+                "0": "Caffeine",
+                "1": "Chocolate",
+                "2": "Sugar",
+                "3": "Junk food",
+                "4": "Chips",
+                "5": "Nicotine",
+                "6": "Alcohol",
+                "7": "Other; Talk about it in <#791375988008288266>"
+            },
+            "serious": false,
+            "political": false,
+            "nsfw": false
+        },
+        {
+            "id": 359,
+            "question": "What movie are you surprised doesn't have a sequel?",
+            "nsfw": false,
+            "political": false,
+            "serious": false
+        },
+        {
+            "id": 360,
+            "question": "Being as vague as possible, what do you do for a living?",
+            "answers": {
+                "0": "I push buttons",
+                "1": "Juice beans for addicted people",
+                "2": "Watch people pay money to lose weight that they could lose for free",
+                "3": "Copy and paste and hope it works",
+                "4": "Something that robots will be doing in less than 50 years",
+                "5": "Move things from point a to point b",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            },
+            "serious": false,
+            "political": false,
+            "nsfw": false
+        },
+        {
+            "id": 361,
+            "question": "You meet God. He gives you one chance to ask anything to him, but it has to be a question that can be answered with yes or no. What will you ask him?",
+            "answers": {
+                "0": "Will your answer to this question be no?",
+                "1": "Can I speak to the manager?",
+                "2": "Bone cancer in fucking children? Really?",
+                "3": "Do your parents know you're gay?",
+                "4": "Can I ask you a question?",
+                "5": "Do dogs go to heaven?",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious": false
+        },
+        {
+            "id": 362,
+            "question": "What was loved by poor people until the rich ruined it?",
+            "answers": {
+                "0": "Having YouTube Channels",
+                "1": "Camping",
+                "2": "Collecting Vinyl",
+                "3": "Southern food",
+                "4": "Theater",
+                "5": "Avocados",
+                "6": "Thrift stores",
+                "7": "Conventions",
+                "8": "Housing",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            },
+            "serious": false,
+            "political": false,
+            "nsfw": false
+        },
+        {
+            "id": 363,
+            "question": "What's your \"I told you so\" moment?",
+            "nsfw": false,
+            "political": false,
+            "serious": false
+        },
+        {
+            "id": 365,
+            "question": "What minor injustice was wrought upon you as a child that you're still salty about today?",
+            "nsfw": false,
+            "political": false,
+            "serious": false
+        },
+        {
+            "id": 366,
+            "question": "Who's the one that got away?",
+            "answers": {
+                "0": "The stray cat I psspspspspspspspspsp'd at that never let me pet it :c",
+                "1": "The cutie in math class",
+                "2": "It's more than one, I'm rather terrible at romance",
+                "3": "DB Cooper",
+                "4": "Every single one of my hair bands",
+                "5": "My glasses! I can't see without my glasses!",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            },
+            "serious": false,
+            "political": false,
+            "nsfw": false
+        },
+        {
+            "id": 367,
+            "question": "Rate your name out of 10",
+            "nsfw": false,
+            "political": false,
+            "serious": false
+        },
+        {
+            "id": 368,
+            "question": "What gives you 2000's nostalgia?",
+            "answers": {
+                "0": "I'm too young for this",
+                "1": "Coming soon to own on video and DVD",
+                "2": "Having the single \"*family computer*\"",
+                "3": "Pop Punk",
+                "4": "Old School Runescape",
+                "5": "Dial-up internet",
+                "6": "Homestar Runner",
+                "7": "Limewire / Napster / Kazaa!",
+                "8": "iPods",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            },
+            "serious": false,
+            "political": false,
+            "nsfw": false
+        },
+        {
+            "id": 369,
+            "question": "What doesn't need the hate it gets?",
+            "answers": {
+                "0": "Nuclear powerplants",
+                "1": "MSG",
+                "2": "Sleeping with stuffed animals (anime body pillows don't count)",
+                "3": "GMOs",
+                "4": "TV shows for toddlers. They're kids, it has to be a brain dead show",
+                "5": "Boy bands (or any other \"industry plant\" music groups)",
+                "6": "Yourself <3",
+                "7": "Broccoli",
+                "8": "Other people's choices",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious": false
+        },
+        {
+            "id": 370,
+            "question": "What's your real ghost story?",
+            "nsfw": false,
+            "political": false,
+            "serious": false
+        },
+        {
+            "id": 371,
+            "question": "what was the worst\"I'm gonna die\" situation you've been through?",
+            "nsfw": false,
+            "serious": true,
+            "political": false
+        },
+        {
+            "id": 372,
+            "question": "What is the creepiest thing someone has ever told you?",
+            "political": false,
+            "serious": true,
+            "nsfw": false
+        },
+        {
+            "id": 373,
+            "question": "What accent do you find the most attractive?",
+            "answers": {
+                "0": "Southern American",
+                "1": "Irish",
+                "2": "French",
+                "3": "English",
+                "4": "Scottish",
+                "5": "Midwestern",
+                "6": "Nigerian",
+                "7": "Newfie",
+                "8": "Caribbean",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            },
+            "nsfw": false,
+            "serious": false,
+            "political": false
+        },
+        {
+            "id": 374,
+            "question": "What's the most blatant act of racism you have witnessed?",
+            "nsfw": false,
+            "political": false,
+            "serious": true
+        },
+        {
+            "id": 375,
+            "question": "How much would a hug mean to you right now?",
+            "answers": {
+                "0": "Depends who the hug is coming from",
+                "1": "Worth all the money in the world",
+                "2": "To me, not much. But I am willing to donate one!",
+                "3": "Other; Talk about it in <#791375988008288266>"
+            },
+            "serious": false,
+            "political": false,
+            "nsfw": false
+        },
+        {
+            "id": 376,
+            "question": "What's the weirdest thing you find attractive?",
+            "answers": {
+                "0": "Collar bones",
+                "1": "Chokers",
+                "2": "Long canine teeth",
+                "3": "Glasses, especially \"nerdy\" ones",
+                "4": "Tired looking eyes",
+                "5": "Long piano hands",
+                "6": "Unique voices, even if they are seen as unattractive to their gender",
+                "7": "Rolled up sleeves",
+                "8": "Bed hair",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious": false
+        },
+        {
+            "id": 377,
+            "question": "What's a piece of information you wish you never knew?",
+            "serious": false,
+            "political": false,
+            "nsfw": false
+        },
+        {
+            "id": 378,
+            "question": "How do you know you have fallen in love?",
+            "nsfw": false,
+            "serious": false,
+            "political": false
+        },
+        {
+            "id": 379,
+            "question": "Which place in the world is the most like a battle royale in real life?",
+            "answers": {
+                "0": "Russia",
+                "1": "Somolia",
+                "2": "North Korea",
+                "3": "Florida",
+                "4": "France when the populace is a bit upset"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious": false
+        },
+        {
+            "id": 380,
+            "question": "Who has the **best** food?",
+            "answers": {
+                "0": "Italy",
+                "1": "France",
+                "2": "China",
+                "3": "India",
+                "4": "Thailand",
+                "5": "Persian",
+                "6": "Greece",
+                "7": "The American South",
+                "8": "Mexico",
+                "9": "Other; Talk about it in <#791375988008288266>"
+            },
+            "serious": false,
+            "political": false,
+            "nsfw": false
+        },
+        {
+            "id": 381,
+            "question": "Who has the **worst** food?",
+            "answers": {
+                "0": "Midwestern America",
+                "1": "British",
+                "2": "Swedish",
+                "3": "Russia",
+                "4": "My mother"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious": false
+        },
+        {
+            "id": 382,
+            "question": "What day is your birthday?",
+            "answers": {
+                "0": "1 - 5",
+                "1": "6 - 10",
+                "2": "11 - 15",
+                "3": "16 - 20",
+                "4": "21 - 25",
+                "5": "26 - 31"
+            },
+            "serious": false,
+            "political": false,
+            "nsfw": false
+        },
+        {
+            "id": 383,
+            "question": "Pick one to protect you, the rest are trying to kill you",
+            "answers": {
+                "0": "20 Lions",
+                "1": "10 Bears",
+                "2": "30 Rhinos",
+                "3": "15 Gorillas",
+                "4": "40 Gators",
+                "5": "500 Cobras and Anacondas",
+                "6": "1 Florida Man"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious": false
+        },
+        {
+            "id": 384,
+            "question": "What is your favorite part of the ABC song?",
+            "answers": {
+                "0": "ABCDEFG",
+                "1": "HIJK",
+                "2": "LMNOP",
+                "3": "QRS",
+                "4": "TUV",
+                "5": "WXYZ"
+            },
+            "serious": false,
+            "political": false,
+            "nsfw": false
+        },
+        {
+            "id": 385,
+            "question": "Do you think America should make owning a firearm illegal?",
+            "answers": {
+                "0": "Yes (I am American)",
+                "1": "No (I am American)",
+                "2": "Yes (I am not American)",
+                "3": "No (I am not American)"
+            },
+            "nsfw": false,
+            "political": true,
+            "serious": true
+        },
+        {
+            "id": 386,
+            "question": "Would you rather take...",
+            "answers": {
+                "0": "Red Pill: Strongest person to live",
+                "1": "Yellow Pill: Richest person to live",
+                "2": "Green Pill: Happiest person to live",
+                "3": "Black Pill: Sexiest person to live",
+                "4": "Blue Pill: Very tasty (blueberry flavor)"
+            },
+            "serious": false,
+            "political": false,
+            "nsfw": false
+        },
+        {
+            "id": 387,
+            "question": "You die in real life and are sent to the real life death screen. What optionas do you choose?",
+            "answers": {
+                "0": "Start New Save",
+                "1": "Load Old Save",
+                "2": "Save and Quit",
+                "3": "Spectator Mode",
+                "4": "Other; Talk about it in <#791375988008288266>"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious": false
+        },
+        {
+            "id": 388,
+            "question": "What passive ability would you take?",
+            "answers": {
+                "0": "All food you eat becomes healthy while maintaining its taste",
+                "1": "You learn new to a competant level within 1 hour of study",
+                "2": "All animals love you and won't hurt you",
+                "3": "You can see perfectly in the dark",
+                "4": "You're very likable and have amazing social skills",
+                "5": "You can always breath, even in space",
+                "6": "Other; Talk about it in <#791375988008288266>"
+            },
+            "serious": false,
+            "political": false,
+            "nsfw": false
+        },
+        {
+            "id": 389,
+            "question": "Which ability do you choose?",
+            "answers": {
+                "0": "Being able to fly as long as you're naked",
+                "1": "Be able to go invisible but only while you are cursing constantly",
+                "2": "Be able to run as fast as you want, but only while eating pickles",
+                "3": "Be super stong but only while gargaling soda"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious": false
+        },
+        {
+            "id": 390,
+            "question": "What you doing right now?",
+            "answers": {
+                "0": "Pooping",
+                "1": "Not pooping"
+            },
+            "serious": false,
+            "political": false,
+            "nsfw": false
+        },
+        {
+            "id": 391,
+            "question": "What is more important",
+            "answers": {
+                "0": "Maximizing pleasure/happiness",
+                "1": "Minimizing pain/suffering"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious": true
+        },
+        {
+            "id": 392,
+            "question": "Do you write 'α' or 'a'",
+            "answers": {
+                "0": "α",
+                "1": "a"
+            },
+            "serious": false,
+            "political": false,
+            "nsfw": false
+        },
+        {
+            "id": 393,
+            "question": "Which would you rather have?",
+            "answers": {
+                "0": "Become fluent in the language of your choice",
+                "1": "Solve equations faster than a calculator",
+                "2": "Be able to draw something perfectly with only a brief look",
+                "3": "Make a 5 star meal out of any ingredient",
+                "4": "Have a time machine that can only be used for one round trip (there and back)"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious": false
+        },
+        {
+            "id": 394,
+            "question": "What would benefit humanity the most?",
+            "answers": {
+                "0": "Deleting Twitter and Facebook permanently",
+                "1": "All news becoming unbiased",
+                "2": "Selfishness causes intense pain",
+                "3": "Everyones IQ is now 150",
+                "4": "Fastfood becomes illegal",
+                "5": "Thanos snap"
+            },
+            "serious": true,
+            "political": false,
+            "nsfw": false
+        },
+        {
+            "id": 395,
+            "question": "Do you have any of these paid servises",
+            "answers": {
+                "0": "Reddit Premium",
+                "1": "Discord Nitro",
+                "2": "YouTube Premium",
+                "3": "Hulu without the ads",
+                "4": "Twitter Blue",
+                "5": "Spotify Premium",
+                "6": "Donating to Wikipedia",
+                "7": "Other; Talk about it in <#791375988008288266>"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious": false
+        },
+        {
+            "id": 396,
+            "question": "Which old world would you psend one day exploring",
+            "answers": {
+                "0": "Ancient Athens",
+                "1": "Ancient Egypt",
+                "2": "Napolionic Paris",
+                "3": "Qing China at its height",
+                "4": "Victorian England",
+                "5": "Pre-Colombian Aztec Empire",
+                "6": "Pre-Colombian Incan Empire",
+                "7": "Other; Talk about it in <#791375988008288266>"
+            },
+            "serious":false,
+            "political": false,
+            "nsfw": false
+        },
+        {
+            "id": 397,
+            "question": "If you could have a super heightened sense, which would you choose?",
+            "answers": {
+                "0": "Sight: Can zoom into anything with perfect clarity sight",
+                "1": "Hearing: Can hear anything, but you need a second to tune everything out",
+                "2": "Smell: Can track anything through smell like a blood hound",
+                "3": "Touch: By touching the ground, you feel everything around you",
+                "4": "Taste: Can eat anything without harm"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious": false
+        },
+        {
+            "id": 398,
+            "question": "Do you think \"dude\" is a gendered term (like \"hey dude\")",
+            "answers": {
+                "0": "Very much is",
+                "1": "It is, but I can understand people using it",
+                "2": "No opinion / don't care",
+                "3": "It isn't, but I can see how some people could see it that way",
+                "4": "No it isn't"
+            },
+            "serious": false,
+            "political": false,
+            "nsfw": false
+        },
+        {
+            "id": 399,
+            "question": "Do you think \"guys\" is a gendered term (like \"what up guys?\")",
+            "answers": {
+                "0": "Very much is",
+                "1": "It is, but I can understand people using it",
+                "2": "No opinion / don't care",
+                "3": "It isn't, but I can see how some people could see it that way",
+                "4": "No it isn't"
+            },
+            "serious": false,
+            "political": false,
+            "nsfw": false
+        },
+        {
+            "id": 400,
+            "question": "You are given the oportunity to be the star in the modern real life Truman Show. A camera would be implanted in your brain and show viewers would soley see and hear your point of view. Nothing would be censored. How much money would they have to pay you for ten years of your life?",
+            "answers": {
+                "0": "Free, NSA prob already got cameras up my ass",
+                "1": "$250,000",
+                "2": "$500,000",
+                "3": "$1 Million",
+                "4": "$5 Million",
+                "5": "$10 Million",
+                "6": "$20 Million",
+                "7": "$50 Million",
+                "8": "$100 Million",
+                "9": "Never"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious": false
+        },
+        {
+            "id": 401,
+            "question": "What do you hope we accomplish by 2050",
+            "answers": {
+                "0": "The secret to super long life (100+ becomes expected as normal)",
+                "1": "Revival of any extinct species",
+                "2": "Mars colony",
+                "3": "AI/Robot Servants (more than just a Roomba)",
+                "4": "Carbon Dioxide vacuums that are actually usable",
+                "5": "Talking to aliens"
+            },
+            "serious": false,
+            "political": false,
+            "nsfw": false
+        },
+        {
+            "id": 402,
+            "question": "Do you live in the most populated city in your country (if America, biggest city in your state)",
+            "answers": {
+                "0": "Yes",
+                "1": "No"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious":false
+        },
+        {
+            "id": 403,
+            "question": "Would you rather?",
+            "answers": {
+                "0": "Being able to speak all languages",
+                "1": "Be able to speak to animals"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious":false
+        },
+        {
+            "id": 404,
+            "question": "How often do you brush your teeth?",
+            "answers": {
+                "0": "More than twice a day",
+                "1": "Once in the morning, once before bed",
+                "2": "Once a day",
+                "3": "Once every other day",
+                "4": "Once a week",
+                "5": "Never"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious":false
+        },
+        {
+            "id": 406,
+            "question": "Which should exist?",
+            "answers": {
+                "0": "Femboy Hooters",
+                "1": "Tomboy Outback Steakhouse",
+                "2": "Goth IHOP",
+                "3": "MILF Denny's",
+                "4": "Furry T.G.I. Friday's",
+                "5": "DILF Buffalo Wild Wings",
+                "6": "None, they would all still taste like shit"
+            },
+            "nsfw": true,
+            "political": false,
+            "serious":false
+        },
+        {
+            "id": 407,
+            "question": "Do spoilers ruin a movie for you?",
+            "answers": {
+                "0": "Yes",
+                "1": "No"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious":false
+        },
+        {
+            "id": 408,
+            "question": "Which strange pet would you have?",
+            "answers": {
+                "0": "Raccoon",
+                "1": "Armadillo",
+                "2": "Platypus",
+                "3": "Fox",
+                "4": "Monkey",
+                "5": "Wallaby",
+                "6": "Koala",
+                "7": "Squirrel",
+                "8": "Capybara",
+                "9":"Other; Talk about it in <#791375988008288266>"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious":false
+        },
+        {
+            "id": 409,
+            "question": "Do you ever get embarrassed sharing your music interests with people if they ask?",
+            "answers": {
+                "0": "Yes, because my music is weird/considered shit",
+                "1": "Yes, but for no reason",
+                "2": "Ehh",
+                "3": "No",
+                "4": "They don't ask, I force it on them",
+                "5": "Other; Talk about it in <#791375988008288266>"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious":false
+        },
+        {
+            "id": 410,
+            "question": "Would you date someone with mirror opposite political views? (As in, they are the same level of radical, just on the other side of the spectrum)",
+            "answers": {
+                "0": "No",
+                "1": "Yes"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious":false
+        },
+        {
+            "id": 411,
+            "question": "If you were to become famous, what kind of famous would you like to be?",
+            "answers": {
+                "0": "Famous actor",
+                "1": "Famous musician",
+                "2": "Famous Athlete",
+                "3": "Famous Chef",
+                "4": "Famous Politician",
+                "5": "Famous Criminal",
+                "6": "Famous Scientist",
+                "7": "Other; Talk about it in <#791375988008288266>"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious":false
+        },
+        {
+            "id": 412,
+            "question": "Eye color?",
+            "answers": {
+                "0": "Brown",
+                "1": "Blue",
+                "2": "Green",
+                "3": "Black",
+                "4": "Amber",
+                "5": "Gray",
+                "7": "Other; Talk about it in <#791375988008288266>"
+            },
+            "nsfw": false,
+            "political": false,
+            "serious":false
+        },
+        {
+            "id": 413,
+            "question": "Rank Pixar movies and post your rankings!",
+            "url": "https://tiermaker.com/create/pixar-movies"
+        },
+        {
+            "id": 414,
+            "question": "What's the best and worst animated Disney movies? Show us!",
+            "url": "https://tiermaker.com/create/animated-disney-movies"
+        },
+        {
+            "id": 415,
+            "question": "How would you rank every Marvel movie? Show us!",
+            "url": "https://tiermaker.com/create/marvel-movies-11446"
+        },
+        {
+            "id": 416,
+            "question": "What would you say is the best and worst Star Wars movies are? Show us!",
+            "url": "https://tiermaker.com/create/star-wars-film-ranking-6747"
+        },
+        {
+            "id": 417,
+            "question": "What are the best and worst Dreamworks movies?",
+            "url": "https://tiermaker.com/create/dreamworks-movies"
+        },
+        {
+            "id": 418,
+            "question": "Whate are the best and worst cartoons here?",
+            "url": "https://tiermaker.com/create/cartoons-8217"
+        },
+        {
+            "id": 419,
+            "question": "Got any hot opinions on what Disney Channel shows are good or bad?",
+            "url": "https://tiermaker.com/create/disneychannelshows-27885"
+        },
+        {
+            "id": 420,
+            "question": "Got any hot takes on which Cartoon Network shows are hot and which ones are not?",
+            "url": "https://tiermaker.com/create/cartoon-network"
+        },
+        {
+            "id": 421,
+            "question": "Who's the best SpongeBob character? Who's the worst?",
+            "url": "https://tiermaker.com/create/spongebob-characters"
+        },
+        {
+            "id": 422,
+            "question": "What are the candies you would love to get on Halloween? Which go straight into the trash?",
+            "url": "https://tiermaker.com/create/favorite-halloween-candy-188118"
+        },
+        {
+            "id": 423,
+            "question": "If calories don't exist, which is the best way to make bread?",
+            "url": "https://tiermaker.com/create/bread-types-70751"
+        },
+        {
+            "id": 424,
+            "question": "How would you rate these Thanksgiving classic foods?",
+            "url": "https://tiermaker.com/create/ranking-thanksgiving-foods-2"
+        },
+        {
+            "id": 425,
+            "question": "Which one of these chips go into your mouth first?",
+            "url": "https://tiermaker.com/create/chips-13781"
+        },
+        {
+            "id": 426,
+            "question": "How would you rate these desserts?",
+            "url": "https://tiermaker.com/create/desserts"
+        },
+        {
+            "id": 427,
+            "question": "How healthy are you? How would you rate these veggies?",
+            "url": "https://tiermaker.com/create/vegetablesall-28222"
+        },
+        {
+            "id": 428,
+            "question": "What are the correct things to put on a pizza?",
+            "url": "https://tiermaker.com/create/best-pizza-toppings-17683"
+        },
+        {
+            "id": 429,
+            "question": "What is the best soda on this list? Tell us!",
+            "url": "https://tiermaker.com/create/soda-tier-compendium-11357"
+        },
+        {
+            "id": 430,
+            "question": "What is the definitivly best flavor of ice cream? Rank them!",
+            "url": "https://tiermaker.com/create/soda-tier-compendium-11357"
+        },
+        {
+            "id": 431,
+            "question": "What is the best snack food here?",
+            "url": "https://tiermaker.com/create/snack-foods-77731"
+        },
+        {
+            "id": 432,
+            "question": "What is the best fast food chain here?",
+            "url": "https://tiermaker.com/create/best-fast-food-fast-casual-restaurants-83909"
+        },
+        {
+            "id": 433,
+            "question": "How would you rank these sugery cereals?",
+            "url": "https://tiermaker.com/create/cold-cereal-3346"
+        },
+        {
+            "id": 434,
+            "question": "How would you rate all these candies?",
+            "url": "https://tiermaker.com/create/candy"
+        },
+        {
+            "id": 435,
+            "question": "How healthy are you? Make a tierlist of these fruits!",
+            "url": "https://tiermaker.com/create/ultimate-fruit-tier-list---labeled-183857"
+        },
+        {
+            "id": 436,
+            "question": "What's your favorite childhood snack? Rate them here!",
+            "url": "https://tiermaker.com/create/2000schildhoodsnacks-25989"
+        },
+        {
+            "id": 437,
+            "question": "Whats the best 2000s kid nostalgia? Rank them!",
+            "url": "https://tiermaker.com/create/2000s-childhood-nostalgia-573779"
+        },
+        {
+            "id": 438,
+            "question": "What is best Disney movie? What is the worst? Rank them!",
+            "url": "https://tiermaker.com/create/all-disney-animated-movies-495156"
+        }
+    ]
+}

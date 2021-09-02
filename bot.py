@@ -9,7 +9,6 @@ import logging, sys
 import re
 from urllib.parse import urlparse
 import urllib
-import duolingo
 import asyncio
 import time
 

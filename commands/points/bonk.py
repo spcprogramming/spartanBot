@@ -12,7 +12,7 @@ async def addBonk(ctx=None, client=None, user=None, userDatabase=None):
     try:
         userBonks = users[str(user.id)]['bonk']
     except:
-        users[str(user.id)]['bonk'] = 0
+        users[str(user.id)] = {"bonk": 0}
     users[str(user.id)]['bonk'] = (int(users[str(user.id)]['bonk']) + 1)
 
     with open(userDatabase, 'w') as file:

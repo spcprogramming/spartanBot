@@ -12,7 +12,8 @@ async def addDum(ctx=None, client=None, user=None, userDatabase=None):
     try:
         userBonks = users[str(user.id)]['dum']
     except:
-        users[str(user.id)]['dum'] = 0
+        users[str(user.id)] = {"dum": 0}
+        #users[str(user.id)]['dum'] = 0
     users[str(user.id)]['dum'] = (int(users[str(user.id)]['dum']) + 1)
 
     with open(userDatabase, 'w') as file:

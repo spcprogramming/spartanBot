@@ -12,7 +12,7 @@ async def addBased(ctx=None, client=None, user=None, userDatabase=None):
     try:
         userBonks = users[str(user.id)]['based']
     except:
-        users[str(user.id)]['based'] = 0
+        users[str(user.id)] = {"based": 0}
     users[str(user.id)]['based'] = (int(users[str(user.id)]['based']) + 1)
 
     with open(userDatabase, 'w') as file:

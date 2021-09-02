@@ -12,7 +12,7 @@ async def addCringe(ctx=None, client=None, user=None, userDatabase=None):
     try:
         userBonks = users[str(user.id)]['cringe']
     except:
-        users[str(user.id)]['cringe'] = 0
+        users[str(user.id)] = {"cringe": 0}
     users[str(user.id)]['cringe'] = (int(users[str(user.id)]['cringe']) + 1)
 
     with open(userDatabase, 'w') as file:

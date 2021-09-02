@@ -12,7 +12,7 @@ async def addSmart(ctx=None, client=None, user=None, userDatabase=None):
     try:
         userBonks = users[str(user.id)]['smart']
     except:
-        users[str(user.id)]['smart'] = 0
+        users[str(user.id)] = {"smart": 0}
     users[str(user.id)]['smart'] = (int(users[str(user.id)]['smart']) + 1)
 
     with open(userDatabase, 'w') as file:

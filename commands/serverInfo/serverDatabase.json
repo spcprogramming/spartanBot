@@ -1,93 +1,4 @@
 {
-    "409887583242420224": {
-        "prefix": "!!",
-        "ignoreChannelId": [
-            729885603591618601,
-            409910783158255616,
-            624759106930081812,
-            450381990470877186,
-            747930008835588156
-        ],
-        "adminID": [
-            183680648408465408,
-            739333255379288085,
-            286702078972395530,
-            420958938457047040
-        ],
-        "starBoard": {
-            "enabled": true,
-            "channelID": 655840993991458817,
-            "minimumReact": 5
-        },
-        "confession": {
-            "enabled": false,
-            "channelID": 834599540970881024,
-            "anonymous": true
-        },
-        "questionOfTheDay": {
-            "enabled": false,
-            "channelID": 803789404723871805,
-            "discussionChannelID": 791375988008288266,
-            "qotdRoleID": 790300861666295860,
-            "time": "12:00",
-            "cacheSize": 90
-        },
-        "userInfo": {
-            "enabled": true,
-            "politicsEnabled": true
-        },
-        "points": {
-            "bonkEnabled": true,
-            "basedEnabled": true,
-            "cringeEnabled": true,
-            "smartEnabled": true,
-            "dumEnabled": true
-        },
-        "politicalTest": {
-            "enabled": true
-        }
-    },
-    "817619575079305227": {
-        "prefix": "??",
-        "ignoreChannelId": [
-            817619575599792151
-        ],
-        "adminID": [
-            183680648408465408
-        ],
-        "starBoard": {
-            "enabled": true,
-            "channelID": 835951412873527327,
-            "minimumReact": 3
-        },
-        "confession": {
-            "enabled": true,
-            "channelID": 835951809079410688,
-            "anonymous": true
-        },
-        "questionOfTheDay": {
-            "enabled": true,
-            "channelID": 835951442895831111,
-            "discussionChannelID": 840006613107736576,
-            "qotdRoleID": 840006358757408778,
-            "time": "11:11",
-            "cacheSize": 20
-        },
-        "userInfo": {
-            "enabled": true,
-            "politicsEnabled": true
-        },
-        "points": {
-            "bonkEnabled": true,
-            "basedEnabled": true,
-            "cringeEnabled": true,
-            "smartEnabled": true,
-            "dumEnabled": true
-        },
-        "politicalTest": {
-            "enabled": true
-        }
-    },
     "882721018618204240": {
         "prefix": "!!",
         "ignoreChannelId": [
@@ -104,7 +15,7 @@
         "starBoard": {
             "enabled": true,
             "channelID": 882730606713245727,
-            "minimumReact": 1
+            "minimumReact": 5
         },
         "confession": {
             "enabled": false,

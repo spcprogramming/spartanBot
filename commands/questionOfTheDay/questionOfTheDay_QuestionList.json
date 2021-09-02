@@ -10,17 +10,6 @@
             }
         },
         {
-            "id": 3,
-            "question": "Dick? Pussy?",
-            "answers": {
-                "0": "Dick.",
-                "1": "Pussy.",
-                "2": "Please?",
-                "3": "Eww?",
-                "4": "Other; Talk about it in <#791375988008288266>"
-            }
-        },
-        {
             "id": 4,
             "question": "Cereal, soup?",
             "answers": {
@@ -78,28 +67,12 @@
             }
         },
         {
-            "id": 14,
-            "question": "Political leaning? (*sorry non American peeps*)",
-            "answers": {
-                "0": "Oh no! I'm not brave enough for politics.",
-                "1": "I just want healthcare <:flattened:724832567341350964>",
-                "2": "Whatever the fuck Bernie is doing",
-                "3": "Some flavor of Anarchist",
-                "4": "Some flavor of Socialist",
-                "5": "Right wing (instant ban lol)",
-                "6": "Tankie (instant ban lol)",
-                "7": "idk, left wing I guess?",
-                "8": "Other; Talk about it in <#791375988008288266>"
-            }
-        },
-        {
             "id": 15,
             "question": "What was the worst year of your life?",
             "answers": {
                 "0": "This year, lol",
                 "1": "2020",
                 "2": "2016",
-                "3": "The year I was born, lol",
                 "4": "Other; Talk about it in <#791375988008288266>"
             }
         },
@@ -107,15 +80,15 @@
             "id": 17,
             "question": "Music genre?",
             "answers": {
-                "0": "Punk",
-                "1": "Folk Punk",
-                "2": "K-Pop",
-                "3": "Pop",
+                "0": "Rap",
+                "1": "Rock",
+                "2": "Pop",
+                "3": "K-Pop",
                 "4": "Metal",
-                "5": "Rock",
-                "6": "Pop Punk",
-                "7": "Electro",
-                "8": "Music is for nerds",
+                "5": "Punk",
+                "6": "Country",
+                "7": "Electronic",
+                "8": "Anime openings and videogame OST",
                 "9": "Other; Talk about it in <#791375988008288266>. You can also post your fav music in <#450771368322007040>"
             }
         },
@@ -183,11 +156,9 @@
                 "0": "New Coke was made as a viral marketing campaign to make people buy old Coke",
                 "1": "Governments are hiding that aliens exist",
                 "2": "Pro-Wrestling is actually real",
-                "3": "Taylor Swift is gay or bi, only dates men to write songs",
-                "4": "Your phone buzzes for no reason just so you pick it up and use it.",
-                "5": "Wyoming doesn't exist",
-                "6": "JFK's head just kinda did that",
-                "7": "Other; Talk about it in <#791375988008288266>"
+                "3": "Your phone buzzes for no reason just so you pick it up and use it.",
+                "4": "Wyoming doesn't exist",
+                "5": "Other; Talk about it in <#791375988008288266>"
             }
         },
         {
@@ -242,7 +213,7 @@
             "question": "What would you ask future you?",
             "answers": {
                 "0": "What's the winning lotto numbers?",
-                "1": "Did you finally lose your virginity, loser",
+                "1": "Did you finally get a date, loser?",
                 "2": "I have a test tomorrow, give answers",
                 "3": "Other; Talk about it in <#791375988008288266>"
             }
@@ -278,7 +249,7 @@
                 "1": "Christmas / Hanukkah",
                 "2": "Halloween",
                 "3": "Thanksgiving",
-                "4": "Killing the British Day (4th of July, or whatever the day is for your nation)",
+                "4": "Killing the British Day (4th of July)",
                 "5": "Mother's / Father's Day",
                 "6": "Valentine's Day",
                 "7": "New Years",
@@ -302,8 +273,8 @@
             "id": 34,
             "question": "What do you hate being asked?",
             "answers": {
-                "0": "Are you sure? Like, yes, I am sure! Fucking hell! I'm not *that* dumb!",
-                "1": "Can you answer this question? No professor, I didn't raise my fucking hand.",
+                "0": "Are you sure? Like, yes, I am sure! I'm not *that* dumb!",
+                "1": "Can you answer this question? No professor, I didn't raise my hand.",
                 "2": "What do you hate being asked?",
                 "3": "What's up? The sky. Ya need glasses",
                 "4": "Other; Talk about it in <#791375988008288266>"
@@ -315,7 +286,7 @@
             "answers": {
                 "0": "My honesty",
                 "1": "My politeness",
-                "2": "My ambition", 
+                "2": "My ambition",
                 "3": "My determination",
                 "4": "Nothing, lol",
                 "5": "Other; Talk about it in <#791375988008288266>"
@@ -556,7 +527,7 @@
             "answers": {
                 "0": "Harry Potter, but without JK Rowling. TRANS RIGHTS",
                 "1": "Lord of the Rings",
-                "2": "Star Wars", 
+                "2": "Star Wars",
                 "3": "Marvel Cinematic Universe",
                 "4": "I'm Rin and my answer is Star Trek",
                 "5": "Other; Talk about it in <#791375988008288266>"
@@ -1056,7 +1027,7 @@
             "question": "What piece of entertainment do you wish you could erase from your mind so that you could experience it for the first time again?",
             "answers": {
                 "0": "My favorite book series",
-                "1": "My favorite television series", 
+                "1": "My favorite television series",
                 "2": "My favorite movie series",
                 "3": "My favorite video game series",
                 "4": "Other; Talk about it in <#791375988008288266>"
@@ -1649,7 +1620,7 @@
             "question": "You're going to sail around the world, what's the name of your boat?"
         },
         {
-            "id": 196, 
+            "id": 196,
             "question": "If you could level up in life just like in video games, where would you put your next skill point?"
         },
         {

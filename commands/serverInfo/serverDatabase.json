@@ -87,5 +87,51 @@
         "politicalTest": {
             "enabled": true
         }
-    }    
+    },
+    "882721018618204240": {
+        "prefix": "!!",
+        "ignoreChannelId": [
+            729885603591618601,
+            409910783158255616,
+            624759106930081812,
+            450381990470877186,
+            747930008835588156
+        ],
+        "adminID": [
+            183680648408465408,
+            373681864906375188
+        ],
+        "starBoard": {
+            "enabled": true,
+            "channelID": 882730606713245727,
+            "minimumReact": 1
+        },
+        "confession": {
+            "enabled": false,
+            "channelID": 834599540970881024,
+            "anonymous": true
+        },
+        "questionOfTheDay": {
+            "enabled": false,
+            "channelID": 882759177620033566,
+            "discussionChannelID": 882759356926537728,
+            "qotdRoleID": 882813165929398305,
+            "time": "12:00",
+            "cacheSize": 120
+        },
+        "userInfo": {
+            "enabled": false,
+            "politicsEnabled": true
+        },
+        "points": {
+            "bonkEnabled": false,
+            "basedEnabled": true,
+            "cringeEnabled": true,
+            "smartEnabled": true,
+            "dumEnabled": true
+        },
+        "politicalTest": {
+            "enabled": false
+        }
+    } 
 }

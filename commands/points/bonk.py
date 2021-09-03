@@ -19,10 +19,10 @@ async def addBonk(ctx=None, client=None, user=None, userDatabase=None):
         json.dump(users, file, indent=4)
 
     randomMessage = [
-        (user.mention + ' has commited a horny ' + str(users[str(user.id)]['bonk']) + ' times! <a:doggoHammer:744652776801435710>'),
+        (user.mention + ' has committed a horny ' + str(users[str(user.id)]['bonk']) + ' times! <a:doggoHammer:744652776801435710>'),
         (user.mention + ' has been horny ' + str(users[str(user.id)]['bonk']) + ' times! <a:doggoHammer:744652776801435710>'),
         (user.mention + ' has been bonked by the horny hammer ' + str(users[str(user.id)]['bonk']) + ' times! <a:doggoHammer:744652776801435710>'),
-        (user.mention + ' has been a very naughty little shit ' + str(users[str(user.id)]['bonk']) + ' times! <a:doggoHammer:744652776801435710>')
+        (user.mention + ' has been a very naughty ' + str(users[str(user.id)]['bonk']) + ' times! <a:doggoHammer:744652776801435710>')
     ]
 
     await ctx.send(randomMessage[random.randint(0,3)])

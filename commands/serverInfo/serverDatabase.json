@@ -35,7 +35,7 @@
             "politicsEnabled": true
         },
         "points": {
-            "bonkEnabled": false,
+            "bonkEnabled": true,
             "basedEnabled": true,
             "cringeEnabled": true,
             "smartEnabled": true,

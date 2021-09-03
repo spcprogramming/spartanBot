@@ -19,10 +19,10 @@ async def addBonk(ctx=None, client=None, user=None, userDatabase=None):
         json.dump(users, file, indent=4)
 
     randomMessage = [
-        (user.mention + ' has committed a horny ' + str(users[str(user.id)]['bonk']) + ' times! <a:doggoHammer:744652776801435710>'),
-        (user.mention + ' has been horny ' + str(users[str(user.id)]['bonk']) + ' times! <a:doggoHammer:744652776801435710>'),
-        (user.mention + ' has been bonked by the horny hammer ' + str(users[str(user.id)]['bonk']) + ' times! <a:doggoHammer:744652776801435710>'),
-        (user.mention + ' has been a very naughty ' + str(users[str(user.id)]['bonk']) + ' times! <a:doggoHammer:744652776801435710>')
+        (user.mention + ' has committed a horny ' + str(users[str(user.id)]['bonk']) + ' times! <a:doggoHammer:883162592795828244>'),
+        (user.mention + ' has been horny ' + str(users[str(user.id)]['bonk']) + ' times! <a:doggoHammer:883162592795828244>'),
+        (user.mention + ' has been bonked by the horny hammer ' + str(users[str(user.id)]['bonk']) + ' times! <a:doggoHammer:883162592795828244>'),
+        (user.mention + ' has been a very naughty ' + str(users[str(user.id)]['bonk']) + ' times! <a:doggoHammer:883162592795828244>')
     ]
 
     await ctx.send(randomMessage[random.randint(0,3)])
@@ -37,10 +37,10 @@ async def getBonks(ctx=None, client=None, user=None, userDatabase=None):
         print(userBonks)
         if (userBonks != 0) and (userBonks != None) and (userBonks > 0):
             randomMessage = [
-                (user.mention + ' has commited a horny ' + str(userBonks) + ' times! <a:doggoHammer:744652776801435710>'),
-                (user.mention + ' has been horny ' + str(userBonks) + ' times! <a:doggoHammer:744652776801435710>'),
-                (user.mention + ' has been bonked by the horny hammer ' + str(userBonks) + ' times! <a:doggoHammer:744652776801435710>'),
-                (user.mention + ' has been a very naughty little shit ' + str(userBonks) + ' times! <a:doggoHammer:744652776801435710>')
+                (user.mention + ' has commited a horny ' + str(userBonks) + ' times! <a:doggoHammer:883162592795828244>'),
+                (user.mention + ' has been horny ' + str(userBonks) + ' times! <a:doggoHammer:883162592795828244>'),
+                (user.mention + ' has been bonked by the horny hammer ' + str(userBonks) + ' times! <a:doggoHammer:883162592795828244>'),
+                (user.mention + ' has been a very naughty little shit ' + str(userBonks) + ' times! <a:doggoHammer:883162592795828244>')
             ]
 
             await ctx.send(randomMessage[random.randint(0,3)])

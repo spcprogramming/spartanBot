@@ -14,7 +14,7 @@
         ],
         "starBoard": {
             "enabled": true,
-            "channelID": 882730606713245727,
+            "channelID": 882759391076569108,
             "minimumReact": 5
         },
         "confession": {
@@ -23,11 +23,11 @@
             "anonymous": true
         },
         "questionOfTheDay": {
-            "enabled": false,
+            "enabled": true,
             "channelID": 882759177620033566,
             "discussionChannelID": 882759356926537728,
             "qotdRoleID": 882813165929398305,
-            "time": "12:00",
+            "time": "21:13",
             "cacheSize": 120
         },
         "userInfo": {

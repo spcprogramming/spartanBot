@@ -177,7 +177,7 @@ async def getQuestion(ctx=None, client=None, randomQuestion=None, questionBoard=
         for key in randomQuestion['answers'].keys():
             description += ':' + p.number_to_words(key) + ': ' + randomQuestion['answers'][key] + '\n'
     except:
-        description = "Go and tell the server in <#791375988008288266>"
+        description = "Go and tell the server in <#882759356926537728>"
 
     #print(description)
 
@@ -188,7 +188,7 @@ async def getQuestion(ctx=None, client=None, randomQuestion=None, questionBoard=
     )
     embed.set_footer(text="Question ID: " + str(randomQuestion['id']) + ' of ' + str(len(quesions['questions'])))
 
-    await questionBoard.send('<@&790300861666295860> give me your opinions',embed=embed)
+    await questionBoard.send('<@&882813165929398305> give me your opinions',embed=embed)
 
     #questionMessage = await ctx.fetch_message(questionBoard.last_message_id)
     questionMessage = await questionBoard.history(limit=1).flatten()

@@ -22,7 +22,7 @@ async def addBonk(ctx=None, client=None, user=None, userDatabase=None):
         (user.mention + ' has committed a horny ' + str(users[str(user.id)]['bonk']) + ' times! <a:doggoHammer:883162592795828244>'),
         (user.mention + ' has been horny ' + str(users[str(user.id)]['bonk']) + ' times! <a:doggoHammer:883162592795828244>'),
         (user.mention + ' has been bonked by the horny hammer ' + str(users[str(user.id)]['bonk']) + ' times! <a:doggoHammer:883162592795828244>'),
-        (user.mention + ' has been a very naughty ' + str(users[str(user.id)]['bonk']) + ' times! <a:doggoHammer:883162592795828244>')
+        (user.mention + ' has been very naughty ' + str(users[str(user.id)]['bonk']) + ' times! <a:doggoHammer:883162592795828244>')
     ]
 
     await ctx.send(randomMessage[random.randint(0,3)])

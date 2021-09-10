@@ -40,7 +40,7 @@ async def getBonks(ctx=None, client=None, user=None, userDatabase=None):
                 (user.mention + ' has commited a horny ' + str(userBonks) + ' times! <a:doggoHammer:883162592795828244>'),
                 (user.mention + ' has been horny ' + str(userBonks) + ' times! <a:doggoHammer:883162592795828244>'),
                 (user.mention + ' has been bonked by the horny hammer ' + str(userBonks) + ' times! <a:doggoHammer:883162592795828244>'),
-                (user.mention + ' has been a very naughty little shit ' + str(userBonks) + ' times! <a:doggoHammer:883162592795828244>')
+                (user.mention + ' has been very naughty ' + str(userBonks) + ' times! <a:doggoHammer:883162592795828244>')
             ]
 
             await ctx.send(randomMessage[random.randint(0,3)])

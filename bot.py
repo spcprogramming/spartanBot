@@ -35,8 +35,12 @@ ignoreChannels = [729885603591618601,	# roles channel
 				  624759106930081812,	# notification channel
 				  450381990470877186,	# bot spam channel
 				  747930008835588156,	# helping bot 3
-				  803789404723871805]	# qotd question channel
-
+				  803789404723871805,	# qotd question channel
+				  882728909991460884,	# announcments
+				  883093396892295238,   # server events
+				  882732242202411059,	#roles
+				  882759177620033566	# qotd
+				  ]	
 pictureFileFormats = ['jpg', 'png', 'gif', 'jpeg', 'tiff', 'bmp']
 
 # loading server settings

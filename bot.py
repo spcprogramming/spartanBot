@@ -11,6 +11,7 @@ from urllib.parse import urlparse
 import urllib
 import asyncio
 import time
+import pickle
 
 # custom functions
 from commands.questionOfTheDay import questionOfTheDay
@@ -20,6 +21,8 @@ from commands.points import based
 from commands.points import cringe
 from commands.points import dum
 from commands.points import smart
+
+from commands.SPCEvents import scan
 
 # read secrets
 with open('secrets.txt') as f:
@@ -137,12 +140,74 @@ async def checkTime():
 			# QOTD NOT ENABLED
 			print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' QOTD ' + str(server) + ': DISABLED')
 			print('-------------------------------------------------------------------------------------------')
-'''
-	if (str(timeNow) == str(timeQOTD)):
-		print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' Posting QOTD')
-		await questionOfTheDay.getQuestion(ctx=None, client=client, randomQuestion=None)
-		await asyncio.sleep(60)
+
+	'''
+	reading spc events
+	'''
+
+	'''
+	scanning for new ones
+	'''
+	scanTime = '03:00'
+	timeformat = '%H:%M'
+	timeNow = datetime.strftime(datetime.now(), timeformat)
+
+	if (str(timeNow) == str(scanTime)):
+		print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> Scanning for SPC Events...')
+		scan.main()
+
+
+
+
+	# load the pickle
+
+	#try:
+	print('trying to load the cal pickle')
+	pickle_in = open('./commands/SPCEvents/dict.pickle', 'rb')
+	cal = pickle.load(pickle_in)
+	print('pickle loaded')
+	#print(cal)
+	interation = 0
+	for event in cal:
 		'''
+		get relative days
+		then if it is 3 or less days
+		post it
+		move to next object
+
+		exit loopcd
+		remove from pickle list
+		save pickle list
+		'''
+		#print('event: ' + str(event))
+		#print('event datetime: ' + str(event['dateTime']))
+		#diff = datetime.now() - event['dateTime']
+		diff = event['dateTime'] - datetime.now()
+		#print('day diff = ' + str(diff.days))
+		total_events = cal
+		notice_in_days = 2
+		if ((int(diff.days) >= 0) and (int(diff.days) <= notice_in_days)):		# event in time windows
+			print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> ' + event['title'] + ' is happening in ' + str(diff.days) + ' days')
+			await scan.postEvent(eventInfo=event, client=client)
+			cal.pop(interation)
+		else:
+			if (int(diff.days) < 0):							# event passed
+				print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> ' + event['title'] + ' has already passed (' + str(diff.days) + ' days)... Removing from cal')
+				cal.pop(interation)
+			elif (int(diff.days) > notice_in_days):							# in the future
+				print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> ' + event['title'] + ' event too far into the future... (' + str(diff.days) + ' days)')
+		#print('diffDays = ' + str(diff.days))
+		interation += 1
+	cal = total_events
+	pickle_out = open('./commands/SPCEvents/dict.pickle', 'wb')
+	pickle.dump(cal, pickle_out)
+	pickle_out.close()
+
+	#except Exception as e:
+	#	print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' Calender pickle could not be read.')
+	#	print(e)
+	#	pass
+	
 
 @checkTime.before_loop
 async def before():

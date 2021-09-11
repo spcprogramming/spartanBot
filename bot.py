@@ -165,6 +165,7 @@ async def checkTime():
 	print('trying to load the cal pickle')
 	pickle_in = open('./commands/SPCEvents/dict.pickle', 'rb')
 	cal = pickle.load(pickle_in)
+	total_events = cal
 	print('pickle loaded')
 	#print(cal)
 	interation = 0

@@ -11,6 +11,7 @@ import pickle
 import discord
 from discord.ext import commands, tasks
 import re
+import asyncio
 '''
 
 event elements
@@ -219,6 +220,10 @@ def main(url="https://www.spcollege.edu/events"):
     # chrome_options.headless = True # also works
     driver = webdriver.Firefox(options=chrome_options)
     driver.get(url)
+    driver.implicitly_wait(5)
+    #asyncio.sleep(5)
+    driver.save_screenshot("screenshot.png")
+    
 
     events = driver.find_elements_by_xpath('//div[@class="event-item"]')
 

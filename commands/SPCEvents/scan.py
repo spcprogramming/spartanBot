@@ -1,8 +1,8 @@
 from discord import embeds
 import requests
 from selenium import webdriver
-#from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.options import Options
+#from selenium.webdriver.firefox.options import Options
 from titlecase import titlecase
 import time
 from datetime import datetime
@@ -202,12 +202,12 @@ def main(url="https://www.spcollege.edu/events"):
 
     #print('cal: ' + str(cal))
     chrome_options = Options()
-    chrome_options.headless = True
+    #chrome_options.headless = True
     chrome_options.add_argument("--remote-debugging-port=9222")
-    #chrome_options.add_argument("--disable-extensions")
-    #chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--disable-extensions")
+    chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--no-sandbox")
-    #chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--headless")
     chrome_options.add_argument("--window-size=1920,3000")
     chrome_options.add_argument('--ignore-certificate-errors')
     chrome_options.add_argument('--allow-running-insecure-content')
@@ -218,7 +218,7 @@ def main(url="https://www.spcollege.edu/events"):
     chrome_options.add_argument("--proxy-server='direct://'")
     chrome_options.add_argument("--disable-extensions")
     # chrome_options.headless = True # also works
-    driver = webdriver.Firefox(options=chrome_options)
+    driver = webdriver.Chrome(options=chrome_options)
     driver.get(url)
     driver.implicitly_wait(5)
     #asyncio.sleep(5)

@@ -223,6 +223,7 @@ def main(url="https://www.spcollege.edu/events"):
     driver.implicitly_wait(5)
     #asyncio.sleep(5)
     driver.save_screenshot("screenshot.png")
+    driver.execute_script("window.scrollTo(0, Y)") 
     
 
     events = driver.find_elements_by_xpath('//div[@class="event-item"]')

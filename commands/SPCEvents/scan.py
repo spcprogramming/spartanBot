@@ -200,6 +200,7 @@ def main(url="https://www.spcollege.edu/events"):
 
     #print('cal: ' + str(cal))
     chrome_options = Options()
+    chrome_options.headless = True
     #chrome_options.add_argument("--disable-extensions")
     #chrome_options.add_argument("--disable-gpu")
     '''chrome_options.add_argument("--no-sandbox")
@@ -214,7 +215,7 @@ def main(url="https://www.spcollege.edu/events"):
     chrome_options.add_argument("--proxy-server='direct://'")
     chrome_options.add_argument("--disable-extensions")'''
     # chrome_options.headless = True # also works
-    driver = webdriver.Chrome(options=chrome_options)
+    driver = webdriver.Firefox(options=chrome_options)
     driver.get(url)
 
     events = driver.find_elements_by_xpath('//div[@class="event-item"]')

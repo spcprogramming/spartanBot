@@ -233,6 +233,7 @@ def main(url="https://www.spcollege.edu/events"):
 
     for event in events:
         url = event.find_element_by_xpath('.//a').get_attribute('href')
+        print('EVENT URL: ' + str(url))
 
         if url not in existing:
             with open(cacheName, 'a+') as cache:

@@ -202,6 +202,7 @@ def main(url="https://www.spcollege.edu/events"):
     #print('cal: ' + str(cal))
     chrome_options = Options()
     chrome_options.headless = True
+    chrome_options.add_argument("--remote-debugging-port=9222")
     #chrome_options.add_argument("--disable-extensions")
     #chrome_options.add_argument("--disable-gpu")
     '''chrome_options.add_argument("--no-sandbox")

@@ -85,9 +85,9 @@ def getEventInfo(url, driver):
     }
     time.sleep(1)
     driver.get(url)
-    driver.execute_script("window.resizeTo(1920,5000)")
+    driver.execute_script("window.resizeTo(1920,20000)")
 
-    driver.save_screenshot("screenshot_" + url + ".png")
+    driver.save_screenshot("screenshot_" + "page" + "_.png")
 
     eventInfo['url'] = url
 
@@ -211,7 +211,7 @@ def main(url="https://www.spcollege.edu/events"):
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--headless")
-    chrome_options.add_argument("--window-size=1920,5000")
+    chrome_options.add_argument("--window-size=1920,20000")
     chrome_options.add_argument('--ignore-certificate-errors')
     chrome_options.add_argument('--allow-running-insecure-content')
     chrome_options.add_argument('--disable-dev-shm-usage')

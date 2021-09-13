@@ -92,90 +92,94 @@ def getEventInfo(url, driver):
     eventInfo['url'] = url
 
     # title
-    title = driver.find_element_by_xpath('//div[@class="eventBlock"]')
-    title = title.find_element_by_xpath('.//h2').text
-    eventInfo['title'] = titlecase(title)
-    eventInfo['title'] = eventInfo['title'].replace('Spc', 'SPC')
-    eventInfo['title'] = eventInfo['title'].replace('Ii', 'II')
-    eventInfo['title'] = eventInfo['title'].replace('Iii', 'III')
-    eventInfo['title'] = eventInfo['title'].replace('Sga', 'SGA')
-    print('EVENT TITLE: ' + eventInfo['title'])
+    try:
+        title = driver.find_element_by_xpath('//div[@class="eventBlock"]')
+        title = title.find_element_by_xpath('.//h2').text
+        eventInfo['title'] = titlecase(title)
+        eventInfo['title'] = eventInfo['title'].replace('Spc', 'SPC')
+        eventInfo['title'] = eventInfo['title'].replace('Ii', 'II')
+        eventInfo['title'] = eventInfo['title'].replace('Iii', 'III')
+        eventInfo['title'] = eventInfo['title'].replace('Sga', 'SGA')
+        print('EVENT TITLE: ' + eventInfo['title'])
 
-    # time
-    eventTime = driver.find_element_by_xpath('//div[@class="dateTimeBlock"]')
-    eventTime = eventTime.find_element_by_xpath('.//time').get_attribute('datetime')
-    eventTime = datetime.strptime(eventTime,"%Y-%m-%dT%H:%M:%S.%f0")
-    print(eventTime)
-    eventInfo['dateTime'] = eventTime
-    print('EVENT TIME: ' + str(eventTime.strftime("%c")))
-    eventInfo['unixTime'] = int(time.mktime(eventTime.timetuple()))
-    print('UNIX TIME: ' + str(eventInfo['unixTime']))
+        # time
+        eventTime = driver.find_element_by_xpath('//div[@class="dateTimeBlock"]')
+        eventTime = eventTime.find_element_by_xpath('.//time').get_attribute('datetime')
+        eventTime = datetime.strptime(eventTime,"%Y-%m-%dT%H:%M:%S.%f0")
+        print(eventTime)
+        eventInfo['dateTime'] = eventTime
+        print('EVENT TIME: ' + str(eventTime.strftime("%c")))
+        eventInfo['unixTime'] = int(time.mktime(eventTime.timetuple()))
+        print('UNIX TIME: ' + str(eventInfo['unixTime']))
 
-    # campus(s)
-    places = driver.find_element_by_xpath('//div[@class="campusBlock"]')
-    places = places.find_elements_by_xpath('.//span')
-    for place in places:
-        place = place.text
-        if 'http' in place.lower():     # link in campus
-            if 'zoom' in place.lower(): # a full on zoom link in campus
-                eventInfo['zoomLink'] = place
-            else:                       # was not a zoom link, so its a general link
-                eventInfo['link'] = place
-        else:                           # an actual campus
-            if 'zoom' in place.lower():
-                # looking for zoom button
-                try:
-                    zoomButton = driver.find_element_by_xpath('//a[@class="spc-dark-blue-button"]')
-                    eventInfo['zoomLink'] = zoomButton.get_attribute('href')
-                except:
-                    eventInfo["notes"] = "At time of scan, a Zoom link could not be found. Please check the official SPC event page."
+        # campus(s)
+        places = driver.find_element_by_xpath('//div[@class="campusBlock"]')
+        places = places.find_elements_by_xpath('.//span')
+        for place in places:
+            place = place.text
+            if 'http' in place.lower():     # link in campus
+                if 'zoom' in place.lower(): # a full on zoom link in campus
+                    eventInfo['zoomLink'] = place
+                else:                       # was not a zoom link, so its a general link
+                    eventInfo['link'] = place
+            else:                           # an actual campus
+                if 'zoom' in place.lower():
+                    # looking for zoom button
+                    try:
+                        zoomButton = driver.find_element_by_xpath('//a[@class="spc-dark-blue-button"]')
+                        eventInfo['zoomLink'] = zoomButton.get_attribute('href')
+                    except:
+                        eventInfo["notes"] = "At time of scan, a Zoom link could not be found. Please check the official SPC event page."
+                else:
+                    place = titlecase(place)
+                    place = place.replace('Spc', 'SPC')
+                    eventInfo['campus'].append(place)
+
+        # description
+        description = driver.find_element_by_xpath('//div[@class="row eventContent"]').text
+
+        try:
+            possibleURL = re.search("(?P<url>https?://[^\s]+)", description).group("url")
+            if 'zoom' in possibleURL:
+                eventInfo['zoomLink'] = possibleURL
+                description = description.replace(possibleURL, '')
             else:
-                place = titlecase(place)
-                place = place.replace('Spc', 'SPC')
-                eventInfo['campus'].append(place)
+                eventInfo['link'] = possibleURL
+                description = description.replace(possibleURL, '')
+        except:
+            pass
 
-    # description
-    description = driver.find_element_by_xpath('//div[@class="row eventContent"]').text
+        description = " ".join(description.split())
+        description = re.sub(r'(\r\n){2,}','\r\n', str(description))
 
-    try:
-        possibleURL = re.search("(?P<url>https?://[^\s]+)", description).group("url")
-        if 'zoom' in possibleURL:
-            eventInfo['zoomLink'] = possibleURL
-            description = description.replace(possibleURL, '')
-        else:
-            eventInfo['link'] = possibleURL
-            description = description.replace(possibleURL, '')
+        eventInfo["description"] = description
+
+        # address
+        try:
+            address = titlecase(driver.find_element_by_xpath('//div[@class="addressBlock"]').text)
+            eventInfo["address"] = address
+        except:
+            pass
+
+        # google maps link
+        try:
+            googleMapsLink = driver.find_element_by_xpath('//div[@class="google-maps-link"]')
+            googleMapsLink = googleMapsLink.find_element_by_xpath('.//a').get_attribute('href')
+            eventInfo["googleMaps"] = googleMapsLink
+        except:
+            pass
+
+        print('URL: ' + str(eventInfo['url']))
+        print('CAMPUS: ' + str(eventInfo['campus']))
+        print('ZOOM LINK: ' + str(eventInfo['zoomLink']))
+        print('GENERAL LINK: ' + str(eventInfo['link']))
+        print('DESCRIPTION: ' + str(eventInfo["description"]))
+        print('ADDRESS: ' + str(eventInfo['address']))
+        print('GOOGLE MAPS LINK: ' + str(eventInfo['googleMaps']))
+        print('NOTES: ' + str(eventInfo['notes']))
     except:
-        pass
-
-    description = " ".join(description.split())
-    description = re.sub(r'(\r\n){2,}','\r\n', str(description))
-
-    eventInfo["description"] = description
-
-    # address
-    try:
-        address = titlecase(driver.find_element_by_xpath('//div[@class="addressBlock"]').text)
-        eventInfo["address"] = address
-    except:
-        pass
-
-    # google maps link
-    try:
-        googleMapsLink = driver.find_element_by_xpath('//div[@class="google-maps-link"]')
-        googleMapsLink = googleMapsLink.find_element_by_xpath('.//a').get_attribute('href')
-        eventInfo["googleMaps"] = googleMapsLink
-    except:
-        pass
-
-    print('URL: ' + str(eventInfo['url']))
-    print('CAMPUS: ' + str(eventInfo['campus']))
-    print('ZOOM LINK: ' + str(eventInfo['zoomLink']))
-    print('GENERAL LINK: ' + str(eventInfo['link']))
-    print('DESCRIPTION: ' + str(eventInfo["description"]))
-    print('ADDRESS: ' + str(eventInfo['address']))
-    print('GOOGLE MAPS LINK: ' + str(eventInfo['googleMaps']))
-    print('NOTES: ' + str(eventInfo['notes']))
+        print('ERROR; PAGE DOES NOT EXIST')
+        eventInfo = None
 
     return eventInfo
 
@@ -234,7 +238,6 @@ def main(url="https://www.spcollege.edu/events"):
     for event in events:
         url = event.find_element_by_xpath('.//a').get_attribute('href')
         print('EVENT URL: ' + str(url))
-
         if url not in existing:
             with open(cacheName, 'a+') as cache:
                 existing.append(url + '\n')
@@ -242,7 +245,8 @@ def main(url="https://www.spcollege.edu/events"):
 
     for event in existing:
         eventInfo = getEventInfo(event, driver)
-        cal.append(eventInfo)
+        if eventInfo != None:
+            cal.append(eventInfo)
         #print('CAL: ' + str(cal))
         
     print('saving pickle')

@@ -202,7 +202,7 @@ def main(url="https://www.spcollege.edu/events"):
     chrome_options = Options()
     #chrome_options.add_argument("--disable-extensions")
     #chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--no-sandbox") # linux only
+    '''chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--window-size=2560,1440")
     chrome_options.add_argument('--ignore-certificate-errors')
@@ -212,7 +212,7 @@ def main(url="https://www.spcollege.edu/events"):
     chrome_options.add_argument("--start-maximized")
     chrome_options.add_argument("--proxy-bypass-list=*")
     chrome_options.add_argument("--proxy-server='direct://'")
-    chrome_options.add_argument("--disable-extensions")
+    chrome_options.add_argument("--disable-extensions")'''
     # chrome_options.headless = True # also works
     driver = webdriver.Chrome(options=chrome_options)
     driver.get(url)

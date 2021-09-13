@@ -191,7 +191,7 @@ async def checkTime():
 			print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> ' + event['title'] + ' is happening in ' + str(diff.days) + ' days')
 			await scan.postEvent(eventInfo=event, client=client)
 			cal.pop(interation)
-			asyncio.sleep(30)
+			await asyncio.sleep(30)
 		else:
 			if (int(diff.days) < 0):							# event passed
 				#print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> ' + event['title'] + ' has already passed (' + str(diff.days) + ' days)... Removing from cal')

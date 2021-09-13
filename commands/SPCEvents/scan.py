@@ -85,6 +85,7 @@ def getEventInfo(url, driver):
     }
     time.sleep(1)
     driver.get(url)
+    driver.execute_script("window.resizeTo(1920,5000)")
 
     driver.save_screenshot("screenshot_" + url + ".png")
 

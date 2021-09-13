@@ -148,7 +148,7 @@ async def checkTime():
 	'''
 	scanning for new ones
 	'''
-	scanTime = '13:42'
+	scanTime = '13:46'
 	timeformat = '%H:%M'
 	timeNow = datetime.strftime(datetime.now(), timeformat)
 

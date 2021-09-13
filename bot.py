@@ -148,7 +148,7 @@ async def checkTime():
 	'''
 	scanning for new ones
 	'''
-	scanTime = '04:00'
+	scanTime = '10:55'
 	timeformat = '%H:%M'
 	timeNow = datetime.strftime(datetime.now(), timeformat)
 
@@ -193,10 +193,11 @@ async def checkTime():
 			cal.pop(interation)
 		else:
 			if (int(diff.days) < 0):							# event passed
-				print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> ' + event['title'] + ' has already passed (' + str(diff.days) + ' days)... Removing from cal')
+				#print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> ' + event['title'] + ' has already passed (' + str(diff.days) + ' days)... Removing from cal')
 				cal.pop(interation)
 			elif (int(diff.days) > notice_in_days):							# in the future
-				print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> ' + event['title'] + ' event too far into the future... (' + str(diff.days) + ' days)')
+				pass
+				#print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> ' + event['title'] + ' event too far into the future... (' + str(diff.days) + ' days)')
 		#print('diffDays = ' + str(diff.days))
 		interation += 1
 	cal = total_events

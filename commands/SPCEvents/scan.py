@@ -1,7 +1,8 @@
 from discord import embeds
 import requests
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
+#from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.firefox.options import Options
 from titlecase import titlecase
 import time
 from datetime import datetime

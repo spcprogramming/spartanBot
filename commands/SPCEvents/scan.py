@@ -53,7 +53,7 @@ async def postEvent(eventInfo, ctx=None, client=None):
         campusString = ""
         for campus in eventInfo['campus']:
             campusString += (' ' + campus)
-        print('campus string ' + campusString )
+        print('campus string ' + campus )
         embed.add_field(name="Campus 🏫", value=str(campusString), inline=False)
 
     if (eventInfo['notes'] != ""):

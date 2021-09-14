@@ -48,7 +48,7 @@ async def postEvent(eventInfo, ctx=None, client=None):
     if (eventInfo['dateTime'] != "") and (eventInfo['dateTime'] != None):
         embed.add_field(name="Date 📅", value=eventInfo['dateTime'].strftime('%Y %B %a %d, %I:%M %p'), inline=False)
 
-    if (eventInfo['campus'] != "") and (eventInfo['campus'] != None):
+    if (eventInfo['campus'] != "") and (eventInfo['campus'] != []):
         '''
         campusString = ""
         for campus in eventInfo['campus']:

@@ -48,13 +48,13 @@ async def postEvent(eventInfo, ctx=None, client=None):
     if (eventInfo['dateTime'] != "") and (eventInfo['dateTime'] != None):
         embed.add_field(name="Date 📅", value=eventInfo['dateTime'].strftime('%Y %B %a %d, %I:%M %p'), inline=False)
 
-    if (eventInfo['campus'] != ""):
+    if (eventInfo['campus'] != "") and (eventInfo['campus'] != None):
 
         campusString = ""
         for campus in eventInfo['campus']:
             campusString += (' ' + campus)
         print('campus string ' + campusString )
-        embed.add_field(name="Campus 🏫", value=campusString, inline=False)
+        embed.add_field(name="Campus 🏫", value=str(campusString), inline=False)
 
     if (eventInfo['notes'] != ""):
         embed.add_field(name="Notes 📝", value=eventInfo['notes'], inline=False)

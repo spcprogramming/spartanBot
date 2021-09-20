@@ -69,7 +69,7 @@ async def postEvent(eventInfo, ctx=None, client=None):
 
     await schooleventChannel.send(embed=embed)
 
-def getEventInfo(url, driver):
+def getEventInfo(url, driver=None):
     print('\n\n----------------------------------------------------------------')
     eventInfo = {
         "title": "",
@@ -85,6 +85,22 @@ def getEventInfo(url, driver):
         "notes": "",
         "url": ""
     }
+    chrome_options = Options()
+    chrome_options.add_argument("--remote-debugging-port=9230")
+    chrome_options.add_argument("--disable-extensions")
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--window-size=1920,20000")
+    chrome_options.add_argument('--ignore-certificate-errors')
+    chrome_options.add_argument('--allow-running-insecure-content')
+    chrome_options.add_argument('--disable-dev-shm-usage')
+    chrome_options.add_argument('--disable-gpu')
+    chrome_options.add_argument("--start-maximized")
+    chrome_options.add_argument("--proxy-bypass-list=*")
+    chrome_options.add_argument("--proxy-server='direct://'")
+    chrome_options.add_argument("--disable-extensions")
+    driver = webdriver.Chrome(options=chrome_options)
     time.sleep(1)
     driver.get(url)
     driver.execute_script("window.resizeTo(1920,20000)")
@@ -182,10 +198,10 @@ def getEventInfo(url, driver):
     except:
         print('ERROR; PAGE DOES NOT EXIST')
         eventInfo = None
-
+    driver.close()
     return eventInfo
 
-def main(url="https://www.spcollege.edu/events"):
+async def main(url="https://www.spcollege.edu/events", client=None):
 
     cacheName = './commands/SPCEvents/cache.txt'
     with open(cacheName) as cache:
@@ -231,8 +247,8 @@ def main(url="https://www.spcollege.edu/events"):
     driver.get(url)
     driver.implicitly_wait(5)
     #asyncio.sleep(5)
-    driver.save_screenshot("screenshot.png")
-    driver.execute_script("window.scrollTo(0, document.body.scrollHeight);") 
+    #driver.save_screenshot("screenshot.png")
+    #driver.execute_script("window.scrollTo(0, document.body.scrollHeight);") 
     
 
     events = driver.find_elements_by_xpath('//div[@class="event-item"]')
@@ -241,11 +257,27 @@ def main(url="https://www.spcollege.edu/events"):
         url = event.find_element_by_xpath('.//a').get_attribute('href')
         print('EVENT URL: ' + str(url))
         if url not in existing:
-            with open(cacheName, 'a+') as cache:
-                existing.append(url + '\n')
-                cache.write(url + '\n')
+            eventInfo = getEventInfo(url=url)
 
-    for event in existing:
+            diff = eventInfo['dateTime'] - datetime.now()
+            notice_in_days = 3
+            if ((int(diff.days) >= 0) and (int(diff.days) <= notice_in_days)):		# event in time windows
+                print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> ' + eventInfo['title'] + ' is happening in ' + str(diff.days) + ' days')
+                existing.append(url + '\n')
+                with open(cacheName, 'a+') as cache:
+                    cache.write(url + '\n')
+
+                await postEvent(eventInfo=eventInfo, client=client)
+            else:
+                if (int(diff.days) < 0):							# event passed
+                    print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> ' + eventInfo['title'] + ' has already passed (' + str(diff.days) + ' days)... Removing from cal')
+                else:       # in the future
+                    print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> ' + eventInfo['title'] + ' event too far into the future... (' + str(diff.days) + ' days)')
+
+
+    driver.close()
+
+    '''for event in existing:
         eventInfo = getEventInfo(event, driver)
         if eventInfo != None:
             cal.append(eventInfo)
@@ -256,3 +288,4 @@ def main(url="https://www.spcollege.edu/events"):
     pickle.dump(cal, pickle_out)
     pickle_out.close()
     print('pickle saved')
+'''

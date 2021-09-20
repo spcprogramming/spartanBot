@@ -148,17 +148,19 @@ async def checkTime():
 	'''
 	scanning for new ones
 	'''
-	scanTime = '15:02'
+	scanTime = '15:00'
 	timeformat = '%H:%M'
 	timeNow = datetime.strftime(datetime.now(), timeformat)
 
-	if (str(timeNow) == str(scanTime)):
+	rightNow = datetime.now()
+
+	if rightNow.strftime("%M") == "01":
 		print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> Scanning for SPC Events...')
-		scan.main()
+		await scan.main(client=client)
 
 
 
-
+'''
 	# load the pickle
 
 	#try:
@@ -171,15 +173,15 @@ async def checkTime():
 	interation = 0
 	for event in cal:
 		'''
-		get relative days
-		then if it is 3 or less days
-		post it
-		move to next object
+		#get relative days
+		#then if it is 3 or less days
+		#post it
+		#move to next object
 
-		exit loopcd
-		remove from pickle list
-		save pickle list
-		'''
+		#exit loopcd
+		#remove from pickle list
+		#save pickle list
+'''
 		#print('event: ' + str(event))
 		#print('event datetime: ' + str(event['dateTime']))
 		#diff = datetime.now() - event['dateTime']
@@ -204,7 +206,7 @@ async def checkTime():
 	cal = total_events
 	pickle_out = open('./commands/SPCEvents/dict.pickle', 'wb')
 	pickle.dump(cal, pickle_out)
-	pickle_out.close()
+	pickle_out.close()'''
 
 	#except Exception as e:
 	#	print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' Calender pickle could not be read.')

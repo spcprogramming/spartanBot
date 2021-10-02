@@ -102,7 +102,9 @@ def getEventInfo(url, driver=None):
     chrome_options.add_argument("--disable-extensions")
     driver = webdriver.Chrome(options=chrome_options)
     time.sleep(1)
+    driver.set_page_load_timeout(30)
     driver.get(url)
+
     driver.execute_script("window.resizeTo(1920,20000)")
 
     driver.save_screenshot("screenshot_" + "page" + "_.png")

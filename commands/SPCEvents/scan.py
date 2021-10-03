@@ -101,18 +101,22 @@ def getEventInfo(url, driver=None):
     chrome_options.add_argument("--proxy-server='direct://'")
     chrome_options.add_argument("--disable-extensions")
     driver = webdriver.Chrome(options=chrome_options)
-    time.sleep(1)
-    driver.set_page_load_timeout(30)
-    driver.get(url)
-
-    driver.execute_script("window.resizeTo(1920,20000)")
-
-    driver.save_screenshot("screenshot_" + "page" + "_.png")
-
-    eventInfo['url'] = url
+    
 
     # title
     try:
+
+        time.sleep(1)
+        driver.set_page_load_timeout(30)
+        driver.get(url)
+
+        driver.execute_script("window.resizeTo(1920,20000)")
+
+        driver.save_screenshot("screenshot_" + "page" + "_.png")
+
+        eventInfo['url'] = url
+
+
         title = driver.find_element_by_xpath('//div[@class="eventBlock"]')
         title = title.find_element_by_xpath('.//h2').text
         eventInfo['title'] = titlecase(title)

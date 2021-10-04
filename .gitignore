@@ -129,3 +129,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+screenshot_page_.png
+screenshot.png
+commands/SPCEvents/dict_pure.pickle
+commands/SPCEvents/dict.pickle

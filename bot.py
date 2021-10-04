@@ -498,7 +498,7 @@ async def forceQuestion(ctx, question=None, client=client, qotdChannel=882759177
 			print(question)
 			question = int(question)
 
-		await questionOfTheDay.getQuestion(ctx=ctx, client=client, randomQuestion=question, questionBoard=qotdChannel, server=[str(ctx.guild.id)])
+		await questionOfTheDay.getQuestion(ctx=ctx, client=client, randomQuestion=question, questionBoard=qotdChannel, server=[str(ctx.guild.id)], serverSettings=serverSettings[str(ctx.guild.id)])
 
 
 

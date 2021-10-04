@@ -262,23 +262,26 @@ async def main(url="https://www.spcollege.edu/events", client=None):
     for event in events:
         url = event.find_element_by_xpath('.//a').get_attribute('href')
         print('EVENT URL: ' + str(url))
-        if url not in existing:
-            eventInfo = getEventInfo(url=url)
+        try:
+            if url not in existing:
+                eventInfo = getEventInfo(url=url)
 
-            diff = eventInfo['dateTime'] - datetime.now()
-            notice_in_days = 3
-            if ((int(diff.days) >= 0) and (int(diff.days) <= notice_in_days)):		# event in time windows
-                print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> ' + eventInfo['title'] + ' is happening in ' + str(diff.days) + ' days')
-                existing.append(url + '\n')
-                with open(cacheName, 'a+') as cache:
-                    cache.write(url + '\n')
+                diff = eventInfo['dateTime'] - datetime.now()
+                notice_in_days = 3
+                if ((int(diff.days) >= 0) and (int(diff.days) <= notice_in_days)):		# event in time windows
+                    print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> ' + eventInfo['title'] + ' is happening in ' + str(diff.days) + ' days')
+                    existing.append(url + '\n')
+                    with open(cacheName, 'a+') as cache:
+                        cache.write(url + '\n')
 
-                await postEvent(eventInfo=eventInfo, client=client)
-            else:
-                if (int(diff.days) < 0):							# event passed
-                    print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> ' + eventInfo['title'] + ' has already passed (' + str(diff.days) + ' days)... Removing from cal')
-                else:       # in the future
-                    print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> ' + eventInfo['title'] + ' event too far into the future... (' + str(diff.days) + ' days)')
+                    await postEvent(eventInfo=eventInfo, client=client)
+                else:
+                    if (int(diff.days) < 0):							# event passed
+                        print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> ' + eventInfo['title'] + ' has already passed (' + str(diff.days) + ' days)... Removing from cal')
+                    else:       # in the future
+                        print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> ' + eventInfo['title'] + ' event too far into the future... (' + str(diff.days) + ' days)')
+        except:
+            pass
 
 
     driver.close()

@@ -154,7 +154,7 @@ async def checkTime():
 
 	rightNow = datetime.now()
 
-	if rightNow.strftime("%M") == "01":
+	if rightNow.strftime("%M") == "05":
 		print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> Scanning for SPC Events...')
 		await scan.main(client=client)
 
@@ -488,6 +488,19 @@ async def _isSmart(ctx, user=None, client=client):
 		return
 
 	await smart.getSmart(ctx=ctx, client=client, user=user, userDatabase=os.path.abspath('./commands/usersInfo/userDatabase.json'))
+
+@client.command(name="forceQuestion")
+async def forceQuestion(ctx, question=None, client=client, qotdChannel=None):
+	
+	if ctx.message.author.id == 183680648408465408:
+		if question != None:
+			print("question is not none")
+			print(question)
+			question = int(question)
+
+		await questionOfTheDay.getQuestion(ctx=ctx, client=client, randomQuestion=question, questionBoard=qotdChannel, serverSettings=serverSettings[str(ctx.guild.id)])
+
+
 
 @client.command()
 async def h(ctx):

@@ -491,6 +491,8 @@ async def _isSmart(ctx, user=None, client=client):
 
 @client.command(name="forceQuestion")
 async def forceQuestion(ctx, question=None, client=client, qotdChannel=882759177620033566):
+
+	print(serverSettings[str(ctx.guild.id)])
 	
 	if ctx.message.author.id == 183680648408465408:
 		if question != None:
@@ -503,7 +505,7 @@ async def forceQuestion(ctx, question=None, client=client, qotdChannel=882759177
 			client=client,
 			randomQuestion=question,
 			questionBoard=qotdChannel,
-			server=serverSettings['882721018618204240'],
+			server=serverSettings[str(ctx.guild.id)],
 			serverSettings=serverSettings
 		)
 		#await questionOfTheDay.getQuestion(ctx=ctx, client=client, randomQuestion=question, questionBoard=qotdChannel, server=[str(ctx.guild.id)], serverSettings=serverSettings[str(ctx.guild.id)])

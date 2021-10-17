@@ -100,6 +100,26 @@ async def on_ready():
 	print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' \nRinBot is ONLINE, listening for actions...\n')
 
 @tasks.loop(seconds=30)
+async def checkEvents():
+
+	'''
+	reading spc events
+	'''
+
+	'''
+	scanning for new ones
+	'''
+	scanTime = '15:00'
+	timeformat = '%H:%M'
+	timeNow = datetime.strftime(datetime.now(), timeformat)
+
+	rightNow = datetime.now()
+
+	if rightNow.strftime("%M") == "05":
+		print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> Scanning for SPC Events...')
+		await scan.main(client=client)
+
+@tasks.loop(seconds=30)
 async def checkTime():
 
 	'''
@@ -141,22 +161,7 @@ async def checkTime():
 			print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' QOTD ' + str(server) + ': DISABLED')
 			print('-------------------------------------------------------------------------------------------')
 
-	'''
-	reading spc events
-	'''
-
-	'''
-	scanning for new ones
-	'''
-	scanTime = '15:00'
-	timeformat = '%H:%M'
-	timeNow = datetime.strftime(datetime.now(), timeformat)
-
-	rightNow = datetime.now()
-
-	if rightNow.strftime("%M") == "05":
-		print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> Scanning for SPC Events...')
-		await scan.main(client=client)
+	
 
 
 
@@ -528,5 +533,6 @@ async def h(ctx):
 STARTING TIME WATCH
 '''
 checkTime.start()
+checkEvents.start()
 
 client.run(TOKEN)

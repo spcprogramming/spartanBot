@@ -100,7 +100,7 @@ def getEventInfo(url, driver=None):
     chrome_options.add_argument("--proxy-bypass-list=*")
     chrome_options.add_argument("--proxy-server='direct://'")
     chrome_options.add_argument("--disable-extensions")
-    driver = webdriver.Chrome(options=chrome_options)
+    driver = webdriver.Chrome(executable_path='./chromedriver', options=chrome_options)
     
 
     # title
@@ -249,7 +249,7 @@ async def main(url="https://www.spcollege.edu/events", client=None):
     chrome_options.add_argument("--proxy-server='direct://'")
     chrome_options.add_argument("--disable-extensions")
     # chrome_options.headless = True # also works
-    driver = webdriver.Chrome(options=chrome_options)
+    driver = webdriver.Chrome(executable_path='./chromedriver', options=chrome_options)
     driver.get(url)
     driver.implicitly_wait(5)
     #asyncio.sleep(5)

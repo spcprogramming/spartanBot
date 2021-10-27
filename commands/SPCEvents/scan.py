@@ -249,7 +249,7 @@ async def main(url="https://www.spcollege.edu/events", client=None):
     chrome_options.add_argument("--proxy-server='direct://'")
     chrome_options.add_argument("--disable-extensions")
     # chrome_options.headless = True # also works
-    driver = webdriver.Chrome(executable_path='.commands/SPCEvents/chromedriver', options=chrome_options)
+    driver = webdriver.Chrome(executable_path='./commands/SPCEvents/chromedriver', options=chrome_options)
     driver.get(url)
     driver.implicitly_wait(5)
     #asyncio.sleep(5)

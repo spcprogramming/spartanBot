@@ -115,7 +115,7 @@ async def checkEvents():
 
 	rightNow = datetime.now()
 
-	if rightNow.strftime("%M") == "05":
+	if rightNow.strftime("%M") == "22":
 		print(datetime.now().strftime("%Y-%m-%d %I:%M:%S:%f %p") + ' -> Scanning for SPC Events...')
 		await scan.main(client=client)
 

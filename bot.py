@@ -524,7 +524,7 @@ async def playlistAppend(ctx, *, message):
 		playlist = message.split()[0]
 		link = message.split()[1]
 		playlistPath = str(os.getcwd())
-		playlistPath = playlistPath.replace('spartanBot', '') + '/MusicBot/Playlists/' + playlist + '.txt'
+		playlistPath = playlistPath.replace('spartanBot', '') + 'MusicBot/Playlists/' + playlist + '.txt'
 
 		with open(playlistPath, 'a') as file:
 			file.write('\n' + link)

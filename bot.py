@@ -1,4 +1,5 @@
 # Work with Python 3.6
+from posixpath import abspath
 import discord
 from discord.ext import commands, tasks
 import json, operator
@@ -515,6 +516,26 @@ async def forceQuestion(ctx, question=None, client=client, qotdChannel=882759177
 		)
 		#await questionOfTheDay.getQuestion(ctx=ctx, client=client, randomQuestion=question, questionBoard=qotdChannel, server=[str(ctx.guild.id)], serverSettings=serverSettings[str(ctx.guild.id)])
 
+@client.command()
+@commands.has_any_role(
+	893262934191530046, 
+	882724660331049000, 
+	882724801712631918, 
+	882724899821600778, 
+	882730350470651904, 
+	883076311743103037)
+async def playlistAppend(ctx, *, message):
+
+	playlist = message.split()[0]
+	link = message.split()[1]
+	playlistPath = str(os.getcwd())
+	playlistPath = playlistPath.replace('spartanBot', '') + '/MusicBot/Playlists/' + playlist + '.txt'
+
+	with open(playlistPath, 'a') as file:
+		file.write('\n' + link)
+
+	await ctx.send('Song was added to ' + playlist)
+	
 
 
 @client.command()

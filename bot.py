@@ -530,7 +530,8 @@ async def playlistAppend(ctx, *, message):
 			file.write('\n' + link)
 
 		await ctx.send('Song was added to ' + playlist)
-	except:
+	except Exception as e:
+		print(e)
 		await ctx.send('There was an error adding your song. Are you sure that playlist exists or that you spelled it correctly?')
 	
 

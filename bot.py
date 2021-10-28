@@ -523,8 +523,15 @@ async def playlistAppend(ctx, *, message):
 	try:
 		playlist = message.split()[0]
 		link = message.split()[1]
+
+		# maybe in the future when I am running the 
+		# bot all off the storage I can use this
+		# until then I'm going to use this
+		playlistPath = '/mnt/nas/personal/github/MusicBot/Playlists/' + playlist + '.txt'
+		'''
 		playlistPath = str(os.getcwd())
 		playlistPath = playlistPath.replace('spartanBot', '') + 'MusicBot/Playlists/' + playlist + '.txt'
+		'''
 
 		with open(playlistPath, 'a') as file:
 			file.write('\n' + link)
